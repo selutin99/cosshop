@@ -55,7 +55,7 @@
 		<!-- END HEADER-->
 		
 		<!--SLIDER-->
-		<div class="container" style="padding: 0; width: 100%; margin-top: -20px;">
+		<div class="container my_carousel">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!--INDICATORS-->
 				<ol class="carousel-indicators">
@@ -65,33 +65,41 @@
 				</ol>
 				<!--END INDICATORS-->
 				
+				<!-- PHONE NUMBER -->
 				<div class="container">
-					<h1 style="color: black;">TEST TEXT FOR PHONE NUMBER</h1>
+					<p id="our_phone">
+						<a href="#">
+							<span class="glyphicon glyphicon-earphone"></span>
+						</a>
+						8-800-555-35-35
+					</p>
 				</div>
+				<!-- END PHONE NUMBER -->
 				
 				<!--SLIDES-->
 				<div class="carousel-inner">
 				  <div class="item active">
-					<img src="images/not.jpg" class="center-block" style="width:60%; max-height: 400px;">
 					<div class="carousel-caption">
 					  <h3>Ноутбуки</h3>
-					  <p>Мощные!</p>
+					  <p>Новые поступления!</p>
 					</div>
+					<img src="images/n1.jpg" class="center-block" style="width:70%; max-height: 350px;">
+					
 				  </div>
 
 				  <div class="item">
-					<img src="images/ny.jpeg" class="center-block" style="width:60%; max-height: 400px;">
+					<img src="images/n2.jpg" class="center-block" style="width:60%; max-height: 350px;">
 					<div class="carousel-caption">
-					  <h3>Мобилки</h3>
-					  <p>Сочные!</p>
+					  <h3>Смартфоны</h3>
+					  <p>Новые модели!</p>
 					</div>
 				  </div>
 				
 				  <div class="item">
-					<img src="images/n.png" class="center-block" style="width:60%; max-height: 400px;">
-					<div class="carousel-caption">
+					<img src="images/n3.jpg" class="center-block" style="width:60%; max-height: 350px;">
+					<div class="carousel-caption hot_prices">
 					  <h3>Наушники</h3>
-					  <p>Вкусные</p>
+					  <p>Распродажа!</p>
 					</div>
 				  </div>
 			  

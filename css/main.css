@@ -1,0 +1,37 @@
+/**********CAROUSEL***************/
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #00BFFF;
+}
+
+.carousel-caption{
+	position: absolute;
+    top: -40px;
+    bottom: auto;
+	color: black;
+}
+
+.my_carousel{ 
+	padding: 0; 
+	width: 100%; 
+	margin-top: -20px;
+}
+
+.hot_prices{
+	color: red;
+}
+
+#our_phone{
+	font-size: 20px; 
+	margin-top: 20px; 
+	padding-left: 100px;
+	font-weight: bold;
+}
+
+/**********CAROUSEL END***********/
+
