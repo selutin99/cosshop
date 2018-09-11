@@ -33,8 +33,8 @@
 					</ul>
 					
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Регистрация</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Вход</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#registerModal"><span class="glyphicon glyphicon-user"></span> Регистрация</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Вход</a></li>
 					</ul>
 					
 					<!--SEARCH-->
@@ -54,7 +54,7 @@
 		</header>
 		<!-- END HEADER-->
 		
-		<!--SLIDER-->
+		<!--CAROUSEL-->
 		<div class="container my_carousel">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<!--INDICATORS-->
@@ -67,12 +67,21 @@
 				
 				<!-- PHONE NUMBER -->
 				<div class="container">
-					<p id="our_phone">
-						<a href="#">
-							<span class="glyphicon glyphicon-earphone"></span>
-						</a>
-						8-800-555-35-35
-					</p>
+					<div class="col-md-4">
+						<p id="our_phone">
+							<a href="#" id="phone">
+								<span class="glyphicon glyphicon-earphone" style="margin-right: 10px;"></span>8-800-555-35-35
+							</a>
+						</p>
+					</div>
+					
+					<div class="col-md-4 col-md-offset-4">
+						<p id="our_phone">
+							<a href="#" class="btn btn-info btn-lg">
+								<span class="glyphicon glyphicon-shopping-cart"></span> Корзина 
+							</a>	
+						</p>
+					</div>
 				</div>
 				<!-- END PHONE NUMBER -->
 				
@@ -83,7 +92,7 @@
 					  <h3>Ноутбуки</h3>
 					  <p>Новые поступления!</p>
 					</div>
-					<img src="images/n1.jpg" class="center-block" style="width:70%; max-height: 350px;">
+					<img src="images/n1.jpg" class="center-block" style="width:60%; max-height: 350px;">
 					
 				  </div>
 
@@ -118,6 +127,99 @@
 				<!--END CONTROLLERS-->
 		    </div>
 		</div>
+		<!--END CAROUSEL-->
+		
+		
+		<!-- LOGIN MODAL-->
+		<div class="modal" id="loginModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Вход</h2>
+						</div>
+					</div>
+					<div class="modal-body">
+						<form class="form-signin">
+							<div class="form-label-group">
+								<label for="inputEmail">Email</label>
+								<input type="email" id="inputEmail" class="form-control" placeholder="Введите email" required autofocus>
+							</div>
+					  
+							<div class="form-label-group">
+								<label for="inputPassword">Пароль</label>
+								<input type="password" id="inputPassword" class="form-control" placeholder="Введите пароль" required>
+							</div>
+					  
+							<div class="checkbox mb-3">
+							  <label>
+								<input type="checkbox" value="remember-me"> Запомнить меня
+							  </label>
+							</div>
+							
+							<div class="login-help">
+								<a href="#" data-toggle="modal" data-target="#registerModal" data-dismiss="modal">Зарегистрироваться</a> - <a href="#">Забыли пароль?</a>
+							</div>
+							
+							<div class="text-center"> 
+								<button class="btn btn-lg btn-info" type="submit" name="login">Войти</button>
+							</div>
+						</form>
+					</div>
+				</div>
+            </div>
+        </div>
+		<!--END LOGIN MODAL-->
+		
+		<!-- REGISTER MODAL-->
+		<div class="modal" id="registerModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Регистрация</h2>
+						</div>
+					</div>
+					<div class="modal-body">
+						<form class="form-signin">		
+							<div class="form-label-group">
+								<label for="inputEmail">Email</label>
+								<input type="email" id="registerEmail" class="form-control" placeholder="Введите email" required autofocus>
+							</div>
+					  
+							<div class="form-label-group">
+								<label for="inputPassword">Пароль</label>
+								<input type="password" id="registerPassword" class="form-control" placeholder="Введите пароль" required>
+							</div>
+							
+							<div class="form-label-group">
+								<label for="inputPassword">Подтверждение пароля</label>
+								<input type="password" id="registerRepearPassword" class="form-control" placeholder="Подтвердите пароль" required>
+							</div>
+							
+							<div class="login-help">
+								<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Уже есть аккаунт?</a>
+							</div>
+							
+							<div class="text-center"> 
+								<button class="btn btn-lg btn-info" type="submit" name="registration">Зарегистрироваться</button>
+							</div>
+						</form>
+					</div>
+				</div>
+            </div>
+        </div>
+		<!--END REGISTER MODAL-->
 		
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

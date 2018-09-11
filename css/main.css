@@ -29,9 +29,27 @@
 #our_phone{
 	font-size: 20px; 
 	margin-top: 20px; 
-	padding-left: 100px;
+	padding-left: 90px;
 	font-weight: bold;
+}
+
+#phone{
+	text-decoration: none;
 }
 
 /**********CAROUSEL END***********/
 
+/**********LOGIN MODAL***********/
+.form-label-group{
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+.login-help{
+	font-size: 12px;
+}
+
+.login-help a{
+	text-decoration: none;
+}
+/********END LOGIN MODAL*********/
