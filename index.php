@@ -13,10 +13,12 @@
 		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 		<!--END SLIDER LIBRARY-->
-
+		
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+		
         <link rel="stylesheet" href="css/bootstrap.min.css">	
 		<link rel="stylesheet" href="css/main.css">
-		
+	
     </head>
     <body>
 		<!--HEADER-->
@@ -35,6 +37,20 @@
 						<li class="active"><a href="#">Главная</a></li>
 						<li><a href="#">О нас</a></li>
 						<li><a href="#">Контакты</a></li>
+						
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								Товары
+								<span class="caret"></span>
+							</a>
+						    <ul class="dropdown-menu">
+								<li><a href="#">Все товары</a></li>
+								<li class="dropdown-header">Категории</li>
+								<li><a href="#">Мобильные телефоны</a></li>
+								<li><a href="#">Наушники</a></li>
+								<li><a href="#">Ноутбуки</a></li>
+							</ul>
+						</li>
 					</ul>
 					
 					<ul class="nav navbar-nav navbar-right">
@@ -241,7 +257,7 @@
 						</div>
 						<div class="space-ten"></div>
 						<div class="btn-ground text-center">
-							<button type="button" class="btn btn-danger"><i class="fa fa-shopping-cart"></i><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
+							<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
 							<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> В избранное</button>
 						</div>
 						<div class="space-ten"></div>
@@ -260,7 +276,7 @@
 						</div>
 						<div class="space-ten"></div>
 						<div class="btn-ground text-center">
-							<button type="button" class="btn btn-danger"><i class="fa fa-shopping-cart"></i><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
+							<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
 							<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> В избранное</button>
 						</div>
 						<div class="space-ten"></div>
@@ -279,7 +295,7 @@
 						</div>
 						<div class="space-ten"></div>
 						<div class="btn-ground text-center">
-							<button type="button" class="btn btn-danger"><i class="fa fa-shopping-cart"></i><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
+							<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
 							<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> В избранное</button>
 						</div>
 						<div class="space-ten"></div>
@@ -306,8 +322,47 @@
 		
 		<!--END LIST OF PRODUCTS-->
 		
-		<!--PARTNERS-->
+		<!--OUR SERVICES-->
 		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 align="center">Как мы работаем</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box">
+						<div class="box-icon"> <span class="fa fa-4x fa-battery-full"></span> </div>
+						<div class="info">
+							<h3 class="text-center">Гарантия качества</h3>
+							<p class="text-center">На каждую покупку, которую Вы совершаете, мы обеспечим отсутствие повреждений, и мы проверим трижды качетсво Вашего товара.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box">
+						<div class="box-icon"> <span class="fa fa-4x fa-truck"></span> </div>
+						<div class="info">
+							<h3 class="text-center">Быстрая доставка</h3>
+							<p class="text-center">Мы гарантируем, что Вы получите товар,<br> как только он поступит к нам. Мы также предоставляем бесплатные возвраты, если вы не удовлетворены заказом.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box">
+						<div class="box-icon"> <span class="fa fa-4x fa-money"></span> </div>
+						<div class="info">
+							<h3 class="text-center">Отличные цены</h3>
+							<p class="text-center">Наши товары отличаются умеренной ценой! Также на нашем сайте часто появляются скидки на технику.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END OUR SERVICES-->
+		
+		<!--PARTNERS-->
+		<div class="container" style="margin-bottom: 50px;">
 			<h2 align="center" style="margin-bottom: 30px;">Наши поставщики</h2>
 			<div class="slider slider-nav">
 				<div class="slide">
@@ -329,6 +384,58 @@
 		</div>
 		<!--END PARTNERS-->
 		
+		<!--FOOTER-->
+		<div class="footers bg-light pt-5 pb-3" style="padding-top: 10px; background-color: #222222; color: white;">
+		   <div class="container pt-5">
+			   <div class="row">
+				   <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
+						<div class="footers-logo">
+							<img src="images/logo/logo.svg" alt="Logo" style="width:50px;">
+							<h4 style="display: inline;">COSshop</h4>
+						</div>
+						<div class="footers-info mt-3" style="margin-top: 10px;">
+							<p>Наш магазин занимается поставкой и продажей электронной техники. Быстрота доставки, доступные цены, качественные товары - вот наш девиз!</p>
+						</div>
+					</div>
+				    <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
+						<h5><b><u>Ссылки</b></u></h5>
+						<ul class="list-unstyled">
+							<li><a href="#" style="text-decoration: none;">О нас</a></li>
+							<li><a href="#" style="text-decoration: none;">Товары</a></li>
+							<li><a href="#" style="text-decoration: none;" data-toggle="modal" data-target="#loginModal">Вход</a></li>
+							<li><a href="#" style="text-decoration: none;" data-toggle="modal" data-target="#registerModal">Регистрация</a></li>
+						</ul>
+					</div>
+				    <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+						<h5><b><u>Контакты</b></u></h5>
+						<ul class="list-unstyled">
+							<li><span class="glyphicon glyphicon-envelope"></span> cosshop@yandex.ru</li>
+							<li><span class="glyphicon glyphicon-globe"></span> город Саратов, улица Политехническая 124</li>
+							<li><span class="glyphicon glyphicon-earphone"></span> 8-800-555-35-35</li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+						<h5><b><u>Мы в социальных сетях</b></u></h5>
+						<ul class="list-unstyled">
+							<li><a href="#"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a></li>
+							<li><a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a></li>
+							<li><a href="mailto:cosshop@yandex.ru"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a></li>
+						</ul>
+					</div>
+			    </div>
+		    </div>
+		</div>
+		<div class="copyright border" style="background-color: #222222;">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 pt-3">
+						<p class="text-muted" style="color: white;">© 2018 COSshop</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END FOOTER-->
+		
 		<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Наверх" data-toggle="tooltip" data-placement="left">
 			<span class="glyphicon glyphicon-chevron-up"></span>
 		</a>
@@ -336,7 +443,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
-		
 		<script src="js/slick.js"></script>
 		
 		<script src="js/resize.js"></script>
