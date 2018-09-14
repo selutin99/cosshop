@@ -181,7 +181,7 @@
 				<div class="container">
 					<div class="col-md-4">
 						<p id="our_phone">
-							<a href="#" id="phone">
+							<a href="callto:88005553535" id="phone">
 								<span class="glyphicon glyphicon-earphone" style="margin-right: 10px;"></span>8-800-555-35-35
 							</a>
 						</p>
@@ -204,12 +204,12 @@
 					  <h3>Ноутбуки</h3>
 					  <p>Новые поступления!</p>
 					</div>
-					<img src="images/n1.jpg" class="center-block" style="width:60%; max-height: 350px;">
+					<img src="images/mainslider/n1.jpg" class="center-block" style="width:60%; max-height: 350px;">
 					
 				  </div>
 
 				  <div class="item">
-					<img src="images/n2.jpg" class="center-block" style="width:60%; max-height: 350px;">
+					<img src="images/mainslider/n2.jpg" class="center-block" style="width:60%; max-height: 350px;">
 					<div class="carousel-caption">
 					  <h3>Смартфоны</h3>
 					  <p>Новые модели!</p>
@@ -217,7 +217,7 @@
 				  </div>
 				
 				  <div class="item">
-					<img src="images/n3.jpg" class="center-block" style="width:60%; max-height: 350px;">
+					<img src="images/mainslider/n3.jpg" class="center-block" style="width:60%; max-height: 350px;">
 					<div class="carousel-caption hot_prices">
 					  <h3>Наушники</h3>
 					  <p>Распродажа!</p>
@@ -247,8 +247,8 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo Y 7.1" data-image="images/b2.jpg" data-target="#image-gallery">
-							<img src="images/b2.jpg" alt="" class="img-responsive">
+						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="ASUS ZenFone Go ZB452KG" data-image="images/goods/b2.jpg" data-target="#image-gallery">
+							<img src="images/goods/b2.jpg" alt="" class="img-responsive">
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right">12000 р.</h4>
@@ -266,8 +266,8 @@
 					
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo S850" data-image="images/b1.jpg" data-target="#image-gallery">
-							<img src="images/b1.jpg" alt="" class="img-responsive">
+						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo S850" data-image="images/goods/b1.jpg" data-target="#image-gallery">
+							<img src="images/goods/b1.jpg" alt="" class="img-responsive">
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right">7350 р.</h4>
@@ -285,8 +285,8 @@
 					
 				<div class="col-md-4">
 					<div class="thumbnail">
-						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo Y 7.1" data-image="images/b3.jpg" data-target="#image-gallery">
-							<img src="images/b3.jpg" alt="" class="img-responsive">
+						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo Y 7.1" data-image="images/goods/b3.jpg" data-target="#image-gallery">
+							<img src="images/goods/b3.jpg" alt="" class="img-responsive">
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right">1250 р.</h4>
@@ -321,6 +321,87 @@
 		<!--END RESIZE IMAGE-->
 		
 		<!--END LIST OF PRODUCTS-->
+		
+		<!--LIST OF SALES-->
+		<div class="container">
+			<h2 align="center">Скидки</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="ASUS ZenFone Max Pro" data-image="images/goods/b4.jpg" data-target="#image-gallery">
+							<img src="images/goods/b4.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="caption">
+						  <h4 class="pull-right" style="color: red;"> 8000 р.</h4>
+						  <h4 class="pull-right"><s> 13500 р.</s></h4>
+						  <h4><a href="#">ASUS ZenFone Max Pro</a></h4>
+						  <p>ZenFone Max Pro – это смартфон нового поколения, созданный на базе процессора Snapdragon 636. Отличаясь великолепной производительностью и долгой работой в автономном режиме, он будет отличным выбором для самых активных пользователей.</p>
+						</div>
+						<div class="space-ten"></div>
+						<div class="btn-ground text-center">
+							<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
+						</div>
+						<div class="space-ten"></div>
+					</div>
+				</div>
+					
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Samsung Galaxy S7" data-image="images/goods/b5.jpg" data-target="#image-gallery">
+							<img src="images/goods/b5.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="caption">
+						  <h4 class="pull-right" style="color: red;"> 9800 р.</h4>
+						  <h4 class="pull-right"><s> 11300 р.</s></h4>
+						  <h4><a href="#">Samsung Galaxy S7</a></h4>
+						  <p>Samsung Galaxy S7 откроет для вас мир технологически совершенных вещей, таких как: очки виртуальной реальности Samsung Gear VR, камеру Gear 360 и смарт-часы Samsung Gear S2. Экосистема совместимых устройств создана, чтобы дарить вам незабываемые впечатления.</p>
+						</div>
+						<div class="space-ten"></div>
+						<div class="btn-ground text-center">
+							<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
+						</div>
+						<div class="space-ten"></div>
+					</div>
+				</div>
+					
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="ASUSPRO B9440UA" data-image="images/goods/b6.jpg" data-target="#image-gallery">
+							<img src="images/goods/b6.jpg" alt="" class="img-responsive">
+						</a>
+						<div class="caption">
+						  <h4 class="pull-right" style="color: red;"> 28800 р.</h4>
+						  <h4 class="pull-right"><s> 30300 р.</s></h4>
+						  <h4><a href="#">ASUSPRO B9440UA</a></h4>
+						  <p>Исключительно легкий и прочный бизнес-ноутбук B9440 с большим дисплеем – незаменимый спутник в деловых поездках в любую точку мира. Тщательно продуманная конструкция позволила разработать 14-дюймовый экран с разрешением Full-HD.</p>
+						</div>
+						<div class="space-ten"></div>
+						<div class="btn-ground text-center">
+							<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
+						</div>
+						<div class="space-ten"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--RESIZE IMAGE-->
+		<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Закрыть</span></button>
+						<h4 class="modal-title" id="image-gallery-title"></h4>
+					</div>
+					<div class="modal-body">
+						<img id="image-gallery-image" class="img-responsive" src="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END RESIZE IMAGE-->
+		
+		<!--END LIST OF SALES-->
 		
 		<!--OUR SERVICES-->
 		<div class="container">
@@ -366,19 +447,25 @@
 			<h2 align="center" style="margin-bottom: 30px;">Наши поставщики</h2>
 			<div class="slider slider-nav">
 				<div class="slide">
-					<img src="images/tb1.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb1.jpg" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/tb2.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb2.jpg" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/tb3.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb3.jpg" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/tb4.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb4.jpg" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/tb5.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb5.jpg" class="img-responsive" />
+				</div>
+				<div class="slide">
+					<img src="images/suppliers/tb6.jpg" class="img-responsive" />
+				</div>
+				<div class="slide">
+					<img src="images/suppliers/tb7.jpg" class="img-responsive" />
 				</div>
 			</div>
 		</div>
