@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <title>Creative Online Store - О нас</title>
+        <title>Creative Online Store - Главная</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,8 +17,8 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 		
         <link rel="stylesheet" href="css/bootstrap.min.css">	
-		<link rel="stylesheet" href="/css/main.css">
-		
+		<link rel="stylesheet" href="css/main.css">
+	
     </head>
     <body>
 		<!--HEADER-->
@@ -35,8 +35,8 @@
 				
 					<ul class="nav navbar-nav">
 						<li><a href="index.php">Главная</a></li>
-						<li class="active"><a href="about.php">О нас</a></li>
-						<li><a href="contacts.php">Контакты</a></li>
+						<li><a href="about.php">О нас</a></li>
+						<li class="active"><a href="contacts.php">Контакты</a></li>
 						
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -166,134 +166,73 @@
         </div>
 		<!--END REGISTER MODAL-->
 		
-		<!--ABOUT US-->
+		<!--CONTACTS-->
 		<div class="container">
-			<h2 align="center">Встречайте нашу команду!</h2>
-			<p align="center" style="font-size: 18px;">
-				Мы разные. Мы росли в разных городах, в разных семьях, мы любим разную еду.<br> Но у нас есть нечто общее. Это наш магазин. Мы его суть. Мы - команда, а также семья.
-			</p>
-			<button class="btn btn-info center-block"><a href="#" style="font-size: 20px; color: white; text-decoration: none;">Напишите нам</a></button> 
-		</div>
-		<!--END ABOUT US-->
-		
-		<!--BACKGROUND-->
-		<img src="images/backgrounds/about_bg.jpg" style="width: 100%; margin-top: 30px;"/>
-		<!--END BACKGROUND-->
-		
-		<!-- OUR TEAM -->
-		<section id="team" class="pb-5" style="margin-bottom: 50px;">
-			<div class="container">
-				<h2 align="center" style="margin-bottom: 20px;">Наша команда</h2>
-				<div class="row">
-					<!-- MEMBER -->
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="image-flip">
-							<div class="mainflip">
-								<div class="frontside">
-									<div class="card">
-										<div class="card-body text-center">
-											<p><img class=" img-fluid" src="images/ourteam/per1.png" alt="Елена Евтеева"></p>
-											<h4 class="card-title">Елена Евтеева</h4>
-											<h6>Дизайнер</h6>
-											<p class="card-text" style="padding: 10px;">Делаю мир ярче и красочнее!</p>
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-facebook"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-skype"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-google"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- END MEMBER -->
-					<!-- MEMBER -->
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="image-flip">
-							<div class="mainflip">
-								<div class="frontside">
-									<div class="card">
-										<div class="card-body text-center">
-											<p><img class=" img-fluid" src="images/ourteam/per2.png" alt="Игорь Кудрявцев"></p>
-											<h4 class="card-title">Игорь Кудрявцев</h4>
-											<h6>Программист</h6>
-											<p class="card-text" style="padding: 10px;">Точность и пунктуальность - главные аспекты в моей работе.</p>
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-facebook"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-skype"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-google"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- END MEMBER -->
-					<!-- MEMBER -->
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="image-flip">
-							<div class="mainflip">
-								<div class="frontside">
-									<div class="card">
-										<div class="card-body text-center">
-											<p><img class=" img-fluid" src="images/ourteam/per3.png" alt="card image"></p>
-											<h4 class="card-title">Ирина Филлипова</h4>
-											<h6>Менеджер</h6>
-											<p class="card-text" style="padding: 10px;">Никогда не сдаваться - вот мой девиз! </p>
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-facebook"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-skype"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-google"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- END MEMBER -->
+			<div class="row">
+				<div class="col-md-12">
+					<h2 align="center">Наши контакты</h2>
+					<p align="center" style="font-size: 18px;">Если Вы захотите связаться с нами, то Вы можете это сделать одним из следующих способов:</p>
 				</div>
 			</div>
-		</section>
-		<!--END OUR TEAM-->
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box" onclick="window.location='tel:88005553535';">
+						<div class="box-icon"><span class="fa fa-4x fa-phone"></span></div>
+						<div class="info">
+							<h3 class="text-center">Позвоните нам</h3>
+							<p class="text-center" style="font-size: 17px; font-weight: bold;">8-800-555-35-35</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box">
+						<div class="box-icon"> <span class="fa fa-4x fa-map-marker"></span> </div>
+						<div class="info">
+							<h3 class="text-center">Наш офис</h3>
+							<p class="text-center" style="font-size: 17px; font-weight: bold;">город Саратов,<br> улица Политехническая 124</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box">
+						<div class="box-icon" onclick="window.location='mailto:cosshop@yandex.ru';"> <span class="fa fa-4x fa-envelope-o"></span> </div>
+						<div class="info">
+							<h3 class="text-center">Напишите нам</h3>
+							<p class="text-center" style="font-size: 17px; font-weight: bold;">cosshop@yandex.ru</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container" style="margin-top: 10px; margin-bottom: 20px;">
+			<h2 align="center" style="margin-bottom: 20px;">Обратная связь</h2>
+			<div class="row">
+				<div class="col-md-7">
+					<iframe src="https://yandex.ru/map-widget/v1/-/CBByj4xb2A" width="100%" height="350" frameborder="1" allowfullscreen="true"></iframe>
+				</div>
+
+				<div class="col-md-5">
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" name="fbename" value="" placeholder="Имя" required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" name="fbeemail" value="" placeholder="Email" required>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" name="fbemessage" rows="9" placeholder="Ваше сообщение" style="resize: none;" required></textarea>
+						</div>
+						<div class="text-center">
+							<button class="btn btn-info" type="submit" name="fbesubmit">
+								<i class="fa fa-paper-plane-o" aria-hidden="true"></i> Отправить
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--END CONTACTS-->
 		
 		<!--FOOTER-->
 		<div class="footers bg-light pt-5 pb-3" style="padding-top: 10px; background-color: #222222; color: white;">
@@ -361,8 +300,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.js"></script>
 		
+		<script src="js/resize.js"></script>
+		<script src="js/slider.js"></script>
 		<script src="js/backtop.js"></script>
-	</body>
+    </body>
 </html>
-		

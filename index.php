@@ -34,9 +34,9 @@
 					<!--END LOGO-->
 				
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Главная</a></li>
+						<li class="active"><a href="index.php">Главная</a></li>
 						<li><a href="about.php">О нас</a></li>
-						<li><a href="#">Контакты</a></li>
+						<li><a href="contacts.php">Контакты</a></li>
 						
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -487,9 +487,15 @@
 				    <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
 						<h5><b><u>Ссылки</b></u></h5>
 						<ul class="list-unstyled">
-							<li><a href="#" style="text-decoration: none;">Главная</a></li>
+							<li><a href="index.php" style="text-decoration: none;">Главная</a></li>
 							<li><a href="about.php" style="text-decoration: none;">О нас</a></li>
+							<li><a href="contacts.php" style="text-decoration: none;">Контакты</a></li>
 							<li><a href="#" style="text-decoration: none;">Товары</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+						<h5><b><u>Вход на сайт</b></u></h5>
+						<ul class="list-unstyled">
 							<li><a href="#" style="text-decoration: none;" data-toggle="modal" data-target="#loginModal">Вход</a></li>
 							<li><a href="#" style="text-decoration: none;" data-toggle="modal" data-target="#registerModal">Регистрация</a></li>
 						</ul>
