@@ -27,7 +27,7 @@
 				<div class="container-fluid">
 					<!--LOGO-->
 					<div class="navbar-header">
-						<a class="navbar-brand" href="#"><img src="images/logo/logo.svg" style="height: 40px; display: inline-block; margin-top: -15px;" alt="COSshop">
+						<a class="navbar-brand" href="index.php"><img src="images/logo/logo.svg" style="height: 40px; display: inline-block; margin-top: -15px;" alt="COSshop">
 						COSshop
 						</a>
 					</div>
@@ -35,7 +35,7 @@
 				
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="#">Главная</a></li>
-						<li><a href="#">О нас</a></li>
+						<li><a href="about.php">О нас</a></li>
 						<li><a href="#">Контакты</a></li>
 						
 						<li class="dropdown">
@@ -487,7 +487,8 @@
 				    <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
 						<h5><b><u>Ссылки</b></u></h5>
 						<ul class="list-unstyled">
-							<li><a href="#" style="text-decoration: none;">О нас</a></li>
+							<li><a href="#" style="text-decoration: none;">Главная</a></li>
+							<li><a href="about.php" style="text-decoration: none;">О нас</a></li>
 							<li><a href="#" style="text-decoration: none;">Товары</a></li>
 							<li><a href="#" style="text-decoration: none;" data-toggle="modal" data-target="#loginModal">Вход</a></li>
 							<li><a href="#" style="text-decoration: none;" data-toggle="modal" data-target="#registerModal">Регистрация</a></li>

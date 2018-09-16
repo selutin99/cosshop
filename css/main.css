@@ -115,3 +115,21 @@
   color: blue;
 }
 /****END SLIDER PARTNER**********/
+
+/******OUR TEAM*******/
+#team {
+    background: white !important;
+}
+
+#team .card {
+    border: none;
+	border-radius: 15px;
+    background: #F6F3F3;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+/******END OUR TEAM****/
