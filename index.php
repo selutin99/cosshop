@@ -204,12 +204,12 @@
 					  <h3>Ноутбуки</h3>
 					  <p>Новые поступления!</p>
 					</div>
-					<img src="images/mainslider/n1.jpg" class="center-block" style="width:60%; max-height: 350px;">
+					<img src="images/mainslider/n1.jpg" class="center-block" style="width:60%; max-height: 350px;" alt="Новые ноутбуки">
 					
 				  </div>
 
 				  <div class="item">
-					<img src="images/mainslider/n2.jpg" class="center-block" style="width:60%; max-height: 350px;">
+					<img src="images/mainslider/n2.jpg" class="center-block" style="width:60%; max-height: 350px;" alt="Новые смартфоны">
 					<div class="carousel-caption">
 					  <h3>Смартфоны</h3>
 					  <p>Новые модели!</p>
@@ -217,7 +217,7 @@
 				  </div>
 				
 				  <div class="item">
-					<img src="images/mainslider/n3.jpg" class="center-block" style="width:60%; max-height: 350px;">
+					<img src="images/mainslider/n3.jpg" class="center-block" style="width:60%; max-height: 350px;" alt="Новые наушники">
 					<div class="carousel-caption hot_prices">
 					  <h3>Наушники</h3>
 					  <p>Распродажа!</p>
@@ -248,7 +248,7 @@
 				<div class="col-md-4">
 					<div class="thumbnail">
 						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="ASUS ZenFone Go ZB452KG" data-image="images/goods/b2.jpg" data-target="#image-gallery">
-							<img src="images/goods/b2.jpg" alt="" class="img-responsive">
+							<img src="images/goods/b2.jpg" alt="ASUS ZenFone Go ZB452KG" class="img-responsive">
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right">12000 р.</h4>
@@ -267,7 +267,7 @@
 				<div class="col-md-4">
 					<div class="thumbnail">
 						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo S850" data-image="images/goods/b1.jpg" data-target="#image-gallery">
-							<img src="images/goods/b1.jpg" alt="" class="img-responsive">
+							<img src="images/goods/b1.jpg" alt="Lenovo S850" class="img-responsive">
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right">7350 р.</h4>
@@ -286,7 +286,7 @@
 				<div class="col-md-4">
 					<div class="thumbnail">
 						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo Y 7.1" data-image="images/goods/b3.jpg" data-target="#image-gallery">
-							<img src="images/goods/b3.jpg" alt="" class="img-responsive">
+							<img src="images/goods/b3.jpg" alt="Lenovo Y 7.1" class="img-responsive">
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right">1250 р.</h4>
@@ -329,7 +329,7 @@
 				<div class="col-md-4">
 					<div class="thumbnail">
 						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="ASUS ZenFone Max Pro" data-image="images/goods/b4.jpg" data-target="#image-gallery">
-							<img src="images/goods/b4.jpg" alt="" class="img-responsive">
+							<img src="images/goods/b4.jpg" alt="ASUS ZenFone Max Pro" class="img-responsive">
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right" style="color: red;"> 8000 р.</h4>
@@ -348,7 +348,7 @@
 				<div class="col-md-4">
 					<div class="thumbnail">
 						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Samsung Galaxy S7" data-image="images/goods/b5.jpg" data-target="#image-gallery">
-							<img src="images/goods/b5.jpg" alt="" class="img-responsive">
+							<img src="images/goods/b5.jpg" alt="Samsung Galaxy S7" class="img-responsive">
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right" style="color: red;"> 9800 р.</h4>
@@ -367,7 +367,7 @@
 				<div class="col-md-4">
 					<div class="thumbnail">
 						<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="ASUSPRO B9440UA" data-image="images/goods/b6.jpg" data-target="#image-gallery">
-							<img src="images/goods/b6.jpg" alt="" class="img-responsive">
+							<img src="images/goods/b6.jpg" alt="ASUSPRO B9440UA" class="img-responsive">
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right" style="color: red;"> 28800 р.</h4>
@@ -384,22 +384,6 @@
 				</div>
 			</div>
 		</div>
-		
-		<!--RESIZE IMAGE-->
-		<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Закрыть</span></button>
-						<h4 class="modal-title" id="image-gallery-title"></h4>
-					</div>
-					<div class="modal-body">
-						<img id="image-gallery-image" class="img-responsive" src="">
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--END RESIZE IMAGE-->
 		
 		<!--END LIST OF SALES-->
 		
@@ -447,25 +431,25 @@
 			<h2 align="center" style="margin-bottom: 30px;">Наши поставщики</h2>
 			<div class="slider slider-nav">
 				<div class="slide">
-					<img src="images/suppliers/tb1.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb1.jpg" alt="Samsung" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb2.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb2.jpg" alt="Canon" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb3.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb3.jpg" alt="HP" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb4.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb4.jpg" alt="Cisco" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb5.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb5.jpg" alt="Panasonic" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb6.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb6.jpg" alt="Lenovo" class="img-responsive" />
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb7.jpg" class="img-responsive" />
+					<img src="images/suppliers/tb7.jpg" alt="Asus" class="img-responsive" />
 				</div>
 			</div>
 		</div>

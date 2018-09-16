@@ -172,12 +172,12 @@
 			<p align="center" style="font-size: 18px;">
 				Мы разные. Мы росли в разных городах, в разных семьях, мы любим разную еду.<br> Но у нас есть нечто общее. Это наш магазин. Мы его суть. Мы - команда, а также семья.
 			</p>
-			<button class="btn btn-info center-block"><a href="#" style="font-size: 20px; color: white; text-decoration: none;">Напишите нам</a></button> 
+			<button class="btn btn-info center-block"><a href="contacts.php" style="font-size: 20px; color: white; text-decoration: none;">Напишите нам</a></button> 
 		</div>
 		<!--END ABOUT US-->
 		
 		<!--BACKGROUND-->
-		<img src="images/backgrounds/about_bg.jpg" style="width: 100%; margin-top: 30px;"/>
+		<img src="images/backgrounds/about_bg.jpg" alt="about us background" style="width: 100%; margin-top: 30px;"/>
 		<!--END BACKGROUND-->
 		
 		<!-- OUR TEAM -->
