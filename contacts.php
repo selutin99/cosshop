@@ -302,8 +302,6 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/slick.js"></script>
 		
-		<script src="js/resize.js"></script>
-		<script src="js/slider.js"></script>
 		<script src="js/backtop.js"></script>
     </body>
 </html>

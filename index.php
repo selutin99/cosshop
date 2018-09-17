@@ -44,7 +44,7 @@
 								<span class="caret"></span>
 							</a>
 						    <ul class="dropdown-menu">
-								<li><a href="#">Все товары</a></li>
+								<li><a href="products.php">Все товары</a></li>
 								<li class="dropdown-header">Категории</li>
 								<li><a href="#">Мобильные телефоны</a></li>
 								<li><a href="#">Наушники</a></li>

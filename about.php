@@ -199,17 +199,17 @@
 											<ul class="list-inline">
 												<li class="list-inline-item">
 													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-facebook"></i>
+														<i class="fa fa-2x fa-facebook"></i>
 													</a>
 												</li>
 												<li class="list-inline-item">
 													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-skype"></i>
+														<i class="fa fa-2x fa-skype"></i>
 													</a>
 												</li>
 												<li class="list-inline-item">
 													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-google"></i>
+														<i class="fa fa-2x fa-google"></i>
 													</a>
 												</li>
 											</ul>
@@ -234,17 +234,17 @@
 											<ul class="list-inline">
 												<li class="list-inline-item">
 													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-facebook"></i>
+														<i class="fa fa-2x fa-facebook"></i>
 													</a>
 												</li>
 												<li class="list-inline-item">
 													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-skype"></i>
+														<i class="fa fa-2x fa-skype"></i>
 													</a>
 												</li>
 												<li class="list-inline-item">
 													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-google"></i>
+														<i class="fa fa-2x fa-google"></i>
 													</a>
 												</li>
 											</ul>
@@ -269,17 +269,17 @@
 											<ul class="list-inline">
 												<li class="list-inline-item">
 													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-facebook"></i>
+														<i class="fa fa-2x fa-facebook"></i>
 													</a>
 												</li>
 												<li class="list-inline-item">
 													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-skype"></i>
+														<i class="fa fa-2x fa-skype"></i>
 													</a>
 												</li>
 												<li class="list-inline-item">
 													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-google"></i>
+														<i class="fa fa-2x fa-google"></i>
 													</a>
 												</li>
 											</ul>
