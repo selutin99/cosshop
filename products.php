@@ -325,13 +325,13 @@
 							<div class="panel-body">
 								<div>
 									<button class="btn btn-primary filter-button" data-filter="all">Все товары</button>
-									<button class="btn btn-default filter-button" data-filter="photo">Новинки</button>
-									<button class="btn btn-default filter-button" data-filter="graphic">Скидки</button>
+									<button class="btn btn-default filter-button" data-filter="new">Новинки</button>
+									<button class="btn btn-default filter-button" data-filter="discounts">Скидки</button>
 								</div>
 								<br/>
 								
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-md-6 filter new">
 										<div class="thumbnail">
 											<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="ASUS ZenFone Go ZB452KG" data-image="images/goods/b2.jpg" data-target="#image-gallery">
 												<img src="images/goods/b2.jpg" alt="ASUS ZenFone Go ZB452KG" class="img-responsive">
@@ -350,7 +350,7 @@
 										</div>
 									</div>
 										
-									<div class="col-md-6">
+									<div class="col-md-6 filter new">
 										<div class="thumbnail">
 											<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo S850" data-image="images/goods/b1.jpg" data-target="#image-gallery">
 												<img src="images/goods/b1.jpg" alt="Lenovo S850" class="img-responsive">
@@ -368,17 +368,17 @@
 											<div class="space-ten"></div>
 										</div>
 									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-6">
+									
+									<div class="col-md-6 filter discounts">
 										<div class="thumbnail">
-											<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="ASUS ZenFone Go ZB452KG" data-image="images/goods/b2.jpg" data-target="#image-gallery">
-												<img src="images/goods/b2.jpg" alt="ASUS ZenFone Go ZB452KG" class="img-responsive">
+											<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Samsung Galaxy S7" data-image="images/goods/b5.jpg" data-target="#image-gallery">
+												<img src="images/goods/b5.jpg" alt="Samsung Galaxy S7" class="img-responsive">
 											</a>
 											<div class="caption">
-											  <h4 class="pull-right">12000 р.</h4>
-											  <h4><a href="#">ASUS ZenFone Go ZB452KG</a></h4>
-											  <p>Новый и яркий дизайн! 8ГБ оперативной памяти помогут решить почти любые задачи. Камера высокого разрешения и громкий динамик делают работу с мультимедиа максимально комфортной. Восьмиядерный процессор делает работу стабильной.</p>
+											  <h4 class="pull-right" style="color: red;"> 9800 р.</h4>
+											  <h4 class="pull-right"><s> 11300 р.</s></h4>
+											  <h4><a href="#">Samsung Galaxy S7</a></h4>
+											  <p>Samsung Galaxy S7 откроет для вас мир технологически совершенных вещей, таких как: очки виртуальной реальности Samsung Gear VR, камеру Gear 360 и смарт-часы Samsung Gear S2. Экосистема совместимых устройств создана, чтобы дарить вам незабываемые впечатления.</p>
 											</div>
 											<div class="space-ten"></div>
 											<div class="btn-ground text-center">
@@ -389,15 +389,16 @@
 										</div>
 									</div>
 										
-									<div class="col-md-6">
+									<div class="col-md-6 filter discounts">
 										<div class="thumbnail">
-											<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo S850" data-image="images/goods/b1.jpg" data-target="#image-gallery">
-												<img src="images/goods/b1.jpg" alt="Lenovo S850" class="img-responsive">
+											<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="ASUSPRO B9440UA" data-image="images/goods/b6.jpg" data-target="#image-gallery">
+												<img src="images/goods/b6.jpg" alt="ASUSPRO B9440UA" class="img-responsive">
 											</a>
 											<div class="caption">
-											  <h4 class="pull-right">7350 р.</h4>
-											  <h4><a href="#">Lenovo S850</a></h4>
-											  <p>Тонкий и легкий смартфон Lenovo S850 подчеркнет ваш неповторимый стиль. Модель в стеклянном корпусе оснащена 5-дюймовыйм дисплеем с HD разрешением и широкими углами обзора, мощным четырехъядерным процессором и двумя SIM-картами.</p>
+											  <h4 class="pull-right" style="color: red;"> 28800 р.</h4>
+											  <h4 class="pull-right"><s> 30300 р.</s></h4>
+											  <h4><a href="#">ASUSPRO B9440UA</a></h4>
+											  <p>Исключительно легкий и прочный бизнес-ноутбук B9440 с большим дисплеем – незаменимый спутник в деловых поездках в любую точку мира. Тщательно продуманная конструкция позволила разработать 14-дюймовый экран с разрешением Full-HD.</p>
 											</div>
 											<div class="space-ten"></div>
 											<div class="btn-ground text-center">

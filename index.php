@@ -474,7 +474,7 @@
 							<li><a href="index.php" style="text-decoration: none;">Главная</a></li>
 							<li><a href="about.php" style="text-decoration: none;">О нас</a></li>
 							<li><a href="contacts.php" style="text-decoration: none;">Контакты</a></li>
-							<li><a href="#" style="text-decoration: none;">Товары</a></li>
+							<li><a href="products.php" style="text-decoration: none;">Товары</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-2 footers-three">
