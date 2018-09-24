@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <title>Creative Online Store - Главная</title>
+        <title>Creative Online Store - Товары</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -338,7 +338,7 @@
 											</a>
 											<div class="caption">
 											  <h4 class="pull-right">12000 р.</h4>
-											  <h4><a href="#">ASUS ZenFone Go ZB452KG</a></h4>
+											  <h4><a href="single_item.php">ASUS ZenFone Go ZB452KG</a></h4>
 											  <p>Новый и яркий дизайн! 8ГБ оперативной памяти помогут решить почти любые задачи. Камера высокого разрешения и громкий динамик делают работу с мультимедиа максимально комфортной. Восьмиядерный процессор делает работу стабильной.</p>
 											</div>
 											<div class="space-ten"></div>
@@ -357,7 +357,7 @@
 											</a>
 											<div class="caption">
 											  <h4 class="pull-right">7350 р.</h4>
-											  <h4><a href="#">Lenovo S850</a></h4>
+											  <h4><a href="single_item.php">Lenovo S850</a></h4>
 											  <p>Тонкий и легкий смартфон Lenovo S850 подчеркнет ваш неповторимый стиль. Модель в стеклянном корпусе оснащена 5-дюймовыйм дисплеем с HD разрешением и широкими углами обзора, мощным четырехъядерным процессором и двумя SIM-картами.</p>
 											</div>
 											<div class="space-ten"></div>
@@ -377,7 +377,7 @@
 											<div class="caption">
 											  <h4 class="pull-right" style="color: red;"> 9800 р.</h4>
 											  <h4 class="pull-right"><s> 11300 р.</s></h4>
-											  <h4><a href="#">Samsung Galaxy S7</a></h4>
+											  <h4><a href="single_item.php">Samsung Galaxy S7</a></h4>
 											  <p>Samsung Galaxy S7 откроет для вас мир технологически совершенных вещей, таких как: очки виртуальной реальности Samsung Gear VR, камеру Gear 360 и смарт-часы Samsung Gear S2. Экосистема совместимых устройств создана, чтобы дарить вам незабываемые впечатления.</p>
 											</div>
 											<div class="space-ten"></div>
@@ -397,7 +397,7 @@
 											<div class="caption">
 											  <h4 class="pull-right" style="color: red;"> 28800 р.</h4>
 											  <h4 class="pull-right"><s> 30300 р.</s></h4>
-											  <h4><a href="#">ASUSPRO B9440UA</a></h4>
+											  <h4><a href="single_item.php">ASUSPRO B9440UA</a></h4>
 											  <p>Исключительно легкий и прочный бизнес-ноутбук B9440 с большим дисплеем – незаменимый спутник в деловых поездках в любую точку мира. Тщательно продуманная конструкция позволила разработать 14-дюймовый экран с разрешением Full-HD.</p>
 											</div>
 											<div class="space-ten"></div>

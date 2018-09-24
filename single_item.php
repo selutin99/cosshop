@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <title>Creative Online Store - Главная</title>
+        <title>Creative Online Store - Lenovo S850</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -266,7 +266,7 @@
 										</a>
 										<div class="caption">
 										  <h4 class="pull-right">1250 р.</h4>
-										  <h4><a href="#">Наушники Lenovo Y 7.1</a></h4>
+										  <h4><a href="single_item.php">Наушники Lenovo Y 7.1</a></h4>
 										  <p>Lenovo GXD0J16085 – игровые наушники с микрофоном, поддерживающие технологию USB 3.0. Это обеспечивает совместимость с большинством современных гаджетов, высокую скорость и производительность. Максимально объёмный звук!</p>
 										</div>
 										<div class="space-ten"></div>
@@ -286,7 +286,7 @@
 										<div class="caption">
 										  <h4 class="pull-right" style="color: red;"> 28800 р.</h4>
 										  <h4 class="pull-right"><s> 30300 р.</s></h4>
-										  <h4><a href="#">ASUSPRO B9440UA</a></h4>
+										  <h4><a href="single_item.php">ASUSPRO B9440UA</a></h4>
 										  <p>Исключительно легкий и прочный бизнес-ноутбук B9440 с большим дисплеем – незаменимый спутник в деловых поездках в любую точку мира. Тщательно продуманная конструкция позволила разработать 14-дюймовый экран с разрешением Full-HD.</p>
 										</div>
 										<div class="space-ten"></div>
@@ -305,7 +305,7 @@
 										<div class="caption">
 										  <h4 class="pull-right" style="color: red;"> 9800 р.</h4>
 										  <h4 class="pull-right"><s> 11300 р.</s></h4>
-										  <h4><a href="#">Samsung Galaxy S7</a></h4>
+										  <h4><a href="single_item.php">Samsung Galaxy S7</a></h4>
 										  <p>Samsung Galaxy S7 откроет для вас мир технологически совершенных вещей, таких как: очки виртуальной реальности Samsung Gear VR, камеру Gear 360 и смарт-часы Samsung Gear S2. Экосистема совместимых устройств создана, чтобы дарить вам незабываемые впечатления.</p>
 										</div>
 										<div class="space-ten"></div>

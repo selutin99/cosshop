@@ -189,7 +189,7 @@
 					
 					<div class="col-md-4 col-md-offset-4">
 						<p id="our_phone">
-							<a href="#" class="btn btn-info btn-lg">
+							<a href="shopping_cart.php" class="btn btn-info btn-lg">
 								<span class="glyphicon glyphicon-shopping-cart"></span> Корзина 
 							</a>	
 						</p>
@@ -252,7 +252,7 @@
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right">12000 р.</h4>
-						  <h4><a href="#">ASUS ZenFone Go ZB452KG</a></h4>
+						  <h4><a href="single_item.php">ASUS ZenFone Go ZB452KG</a></h4>
 						  <p>Новый и яркий дизайн! 8ГБ оперативной памяти помогут решить почти любые задачи. Камера высокого разрешения и громкий динамик делают работу с мультимедиа максимально комфортной. Восьмиядерный процессор делает работу стабильной.</p>
 						</div>
 						<div class="space-ten"></div>
@@ -271,7 +271,7 @@
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right">7350 р.</h4>
-						  <h4><a href="#">Lenovo S850</a></h4>
+						  <h4><a href="single_item.php">Lenovo S850</a></h4>
 						  <p>Тонкий и легкий смартфон Lenovo S850 подчеркнет ваш неповторимый стиль. Модель в стеклянном корпусе оснащена 5-дюймовыйм дисплеем с HD разрешением и широкими углами обзора, мощным четырехъядерным процессором и двумя SIM-картами.</p>
 						</div>
 						<div class="space-ten"></div>
@@ -290,7 +290,7 @@
 						</a>
 						<div class="caption">
 						  <h4 class="pull-right">1250 р.</h4>
-						  <h4><a href="#">Наушники Lenovo Y 7.1</a></h4>
+						  <h4><a href="single_item.php">Наушники Lenovo Y 7.1</a></h4>
 						  <p>Lenovo GXD0J16085 – игровые наушники с микрофоном, поддерживающие технологию USB 3.0. Это обеспечивает совместимость с большинством современных гаджетов, высокую скорость и производительность. Максимально объёмный звук!</p>
 						</div>
 						<div class="space-ten"></div>
@@ -334,7 +334,7 @@
 						<div class="caption">
 						  <h4 class="pull-right" style="color: red;"> 8000 р.</h4>
 						  <h4 class="pull-right"><s> 13500 р.</s></h4>
-						  <h4><a href="#">ASUS ZenFone Max Pro</a></h4>
+						  <h4><a href="single_item.php">ASUS ZenFone Max Pro</a></h4>
 						  <p>ZenFone Max Pro – это смартфон нового поколения, созданный на базе процессора Snapdragon 636. Отличаясь великолепной производительностью и долгой работой в автономном режиме, он будет отличным выбором для самых активных пользователей.</p>
 						</div>
 						<div class="space-ten"></div>
@@ -353,7 +353,7 @@
 						<div class="caption">
 						  <h4 class="pull-right" style="color: red;"> 9800 р.</h4>
 						  <h4 class="pull-right"><s> 11300 р.</s></h4>
-						  <h4><a href="#">Samsung Galaxy S7</a></h4>
+						  <h4><a href="single_item.php">Samsung Galaxy S7</a></h4>
 						  <p>Samsung Galaxy S7 откроет для вас мир технологически совершенных вещей, таких как: очки виртуальной реальности Samsung Gear VR, камеру Gear 360 и смарт-часы Samsung Gear S2. Экосистема совместимых устройств создана, чтобы дарить вам незабываемые впечатления.</p>
 						</div>
 						<div class="space-ten"></div>
@@ -372,7 +372,7 @@
 						<div class="caption">
 						  <h4 class="pull-right" style="color: red;"> 28800 р.</h4>
 						  <h4 class="pull-right"><s> 30300 р.</s></h4>
-						  <h4><a href="#">ASUSPRO B9440UA</a></h4>
+						  <h4><a href="single_item.php">ASUSPRO B9440UA</a></h4>
 						  <p>Исключительно легкий и прочный бизнес-ноутбук B9440 с большим дисплеем – незаменимый спутник в деловых поездках в любую точку мира. Тщательно продуманная конструкция позволила разработать 14-дюймовый экран с разрешением Full-HD.</p>
 						</div>
 						<div class="space-ten"></div>
