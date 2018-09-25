@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <title>Creative Online Store - О нас</title>
+        <title>Creative Online Store - Вишлист</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +18,7 @@
 		
         <link rel="stylesheet" href="css/bootstrap.min.css">	
 		<link rel="stylesheet" href="css/main.css">
-		
+	
     </head>
     <body>
 		<!--HEADER-->
@@ -35,10 +35,10 @@
 				
 					<ul class="nav navbar-nav">
 						<li><a href="index.php">Главная</a></li>
-						<li class="active"><a href="about.php">О нас</a></li>
+						<li><a href="about.php">О нас</a></li>
 						<li><a href="contacts.php">Контакты</a></li>
 						
-						<li class="dropdown">
+						<li class="dropdown active">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 								Товары
 								<span class="caret"></span>
@@ -171,134 +171,97 @@
         </div>
 		<!--END REGISTER MODAL-->
 		
-		<!--ABOUT US-->
+		<!--MAIN BLOCK-->
+		
 		<div class="container">
-			<h2 align="center">Встречайте нашу команду!</h2>
-			<p align="center" style="font-size: 18px;">
-				Мы разные. Мы росли в разных городах, в разных семьях, мы любим разную еду.<br> Но у нас есть нечто общее. Это наш магазин. Мы его суть. Мы - команда, а также семья.
-			</p>
-			<button class="btn btn-info center-block" style="margin-top: 10px;"><a href="contacts.php" style="font-size: 20px; color: white; text-decoration: none;">Напишите нам</a></button> 
+			<h2 align="center" style="margin-bottom: 20px;">Избранные товары</h2>
+			<table id="cart" class="table table-hover table-condensed">
+				<thead>
+					<tr>
+						<th style="width:50%">Товары</th>
+						<th style="width:10%">Цена</th>
+						<th style="width:10%">Остаток</th>
+						<th style="width:20%">Реальная стоимость</th>
+						<th style="width:10%">Действия</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td data-th="Товар">
+							<div class="row">
+								<div class="col-sm-4 col-md-4">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo Y 7.1" data-image="images/goods/b3.jpg" data-target="#image-gallery">
+										<img src="images/goods/b3.jpg" alt="Lenovo Y 7.1" class="img-responsive">
+									</a>
+								</div>
+								<div class="col-sm-7">
+									<h4 class="nomargin"><a href="single_item.php">Lenovo Y 7.1</a></h4>
+									<p>Lenovo GXD0J16085 – игровые наушники с микрофоном, поддерживающие технологию USB 3.0. Это обеспечивает совместимость с большинством современных гаджетов, высокую скорость и производительность. Максимально объёмный звук!</p>
+								</div>
+							</div>
+						</td>
+						<td data-th="Цена" class="table_price">1250 р.</td>
+						<td data-th="Остаток" class="table_qua">&nbsp 3 шт.</td>
+						<td data-th="Реал. цена" class="table_price">1300 р.</td>
+						<td class="actions" data-th="">
+							<button class="btn btn-info btn-sm"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+							<button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
+						</td>
+					</tr>
+					<tr>
+						<td data-th="Товар">
+							<div class="row">
+								<div class="col-sm-4 col-md-4">
+									<a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Lenovo S850" data-image="images/goods/b1.jpg" data-target="#image-gallery">
+										<img src="images/goods/b1.jpg" alt="Lenovo S850" class="img-responsive">
+									</a>
+								</div>
+								<div class="col-sm-7">
+									<h4 class="nomargin"><a href="single_item.php">Lenovo S850</a></h4>
+									<p>Тонкий и легкий смартфон Lenovo S850 подчеркнет ваш неповторимый стиль. Модель в стеклянном корпусе оснащена 5-дюймовыйм дисплеем с HD разрешением и широкими углами обзора, мощным четырехъядерным процессором и двумя SIM-картами.</p>
+								</div>
+							</div>
+						</td>
+						<td data-th="Цена" class="table_price">7350 р.</td>
+						<td data-th="Остаток" class="table_qua">&nbsp 4 шт.</td>
+						<td data-th="Реал. цена" class="table_price">7500 р.</td>
+						<td class="actions" data-th="">
+							<button class="btn btn-info btn-sm"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+							<button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
+						</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr class="visible-xs">
+						<td class="total_price"><strong>Всего: 8800 р.</strong></td>
+					</tr>
+					<tr>
+						<td><a href="products.php" id="continue_shopping" class="btn btn-primary"><i class="fa fa-angle-left"></i> Продолжить шопинг</a></td>
+						<td colspan="2" class="hidden-xs"></td>
+						<td class="hidden-xs text-center total_price"><strong>Всего: 8800 р.</strong></td>
+						<td><a href="#" class="btn btn-success btn-block">Добавить в корзину <i class="fa fa-angle-right"></i></a></td>
+					</tr>
+				</tfoot>
+			</table>
 		</div>
-		<!--END ABOUT US-->
 		
-		<!--BACKGROUND-->
-		<img src="images/backgrounds/about_bg.jpg" alt="about us background" style="width: 100%; margin-top: 30px;"/>
-		<!--END BACKGROUND-->
+		<!--END MAIN BLOCK-->
 		
-		<!-- OUR TEAM -->
-		<section id="team" class="pb-5" style="margin-bottom: 50px;">
-			<div class="container">
-				<h2 align="center" style="margin-bottom: 20px;">Наша команда</h2>
-				<div class="row">
-					<!-- MEMBER -->
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="image-flip">
-							<div class="mainflip">
-								<div class="frontside">
-									<div class="card">
-										<div class="card-body text-center">
-											<p><img class=" img-fluid" src="images/ourteam/per1.png" alt="Елена Евтеева"></p>
-											<h4 class="card-title">Елена Евтеева</h4>
-											<h6>Дизайнер</h6>
-											<p class="card-text" style="padding: 10px;">Делаю мир ярче и красочнее!</p>
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-2x fa-facebook"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-2x fa-skype"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-2x fa-google"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+		<!--RESIZE IMAGE-->
+		<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Закрыть</span></button>
+						<h4 class="modal-title" id="image-gallery-title"></h4>
 					</div>
-					<!-- END MEMBER -->
-					<!-- MEMBER -->
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="image-flip">
-							<div class="mainflip">
-								<div class="frontside">
-									<div class="card">
-										<div class="card-body text-center">
-											<p><img class=" img-fluid" src="images/ourteam/per2.png" alt="Игорь Кудрявцев"></p>
-											<h4 class="card-title">Игорь Кудрявцев</h4>
-											<h6>Программист</h6>
-											<p class="card-text" style="padding: 10px;">Точность и пунктуальность - главные аспекты в моей работе.</p>
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-2x fa-facebook"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-2x fa-skype"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-2x fa-google"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="modal-body">
+						<img id="image-gallery-image" class="img-responsive" src="">
 					</div>
-					<!-- END MEMBER -->
-					<!-- MEMBER -->
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<div class="image-flip">
-							<div class="mainflip">
-								<div class="frontside">
-									<div class="card">
-										<div class="card-body text-center">
-											<p><img class=" img-fluid" src="images/ourteam/per3.png" alt="card image"></p>
-											<h4 class="card-title">Ирина Филлипова</h4>
-											<h6>Менеджер</h6>
-											<p class="card-text" style="padding: 10px;">Никогда не сдаваться - вот мой девиз! </p>
-											<ul class="list-inline">
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-2x fa-facebook"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-2x fa-skype"></i>
-													</a>
-												</li>
-												<li class="list-inline-item">
-													<a class="social-icon text-xs-center" target="_blank" href="#">
-														<i class="fa fa-2x fa-google"></i>
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- END MEMBER -->
 				</div>
 			</div>
-		</section>
-		<!--END OUR TEAM-->
+		</div>
+		<!--END RESIZE IMAGE-->
 		
 		<!--FOOTER-->
 		<div class="footers bg-light pt-5 pb-3" style="padding-top: 10px; background-color: #222222; color: white;">
@@ -368,8 +331,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.js"></script>
 		
+		<script src="js/filter.js"></script>
+		<script src="js/resize.js"></script>
 		<script src="js/backtop.js"></script>
-	</body>
+    </body>
 </html>
-		

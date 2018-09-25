@@ -239,6 +239,15 @@
 .btn-info{
 	margin-top: -10px;
 }
+.btn-primary{
+	margin-bottom: 10px;
+}
+#all_products{
+	margin-top: 10px;
+}
+#continue_shopping{
+	margin-top: 10px;
+}
 .table_price{
 	font-size: 20px;
 }

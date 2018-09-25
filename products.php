@@ -44,7 +44,12 @@
 								<span class="caret"></span>
 							</a>
 						    <ul class="dropdown-menu">
-								<li><a href="#">Все товары</a></li>
+								<li><a href="products.php">Все товары</a></li>
+								
+								<li class="dropdown-header">Добавленные товары</li>
+								<li><a href="shopping_cart.php">Корзина</a></li>
+								<li><a href="wishlist.php">Избранные товары</a></li>
+								
 								<li class="dropdown-header">Категории</li>
 								<li><a href="#">Мобильные телефоны</a></li>
 								<li><a href="#">Наушники</a></li>
@@ -324,7 +329,7 @@
 							</div>
 							<div class="panel-body">
 								<div>
-									<button class="btn btn-primary filter-button" data-filter="all">Все товары</button>
+									<button class="btn btn-primary filter-button" id="all_products" data-filter="all">Все товары</button>
 									<button class="btn btn-default filter-button" data-filter="new">Новинки</button>
 									<button class="btn btn-default filter-button" data-filter="discounts">Скидки</button>
 								</div>
@@ -383,7 +388,6 @@
 											<div class="space-ten"></div>
 											<div class="btn-ground text-center">
 												<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
-												<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> В избранное</button>
 											</div>
 											<div class="space-ten"></div>
 										</div>
@@ -403,7 +407,6 @@
 											<div class="space-ten"></div>
 											<div class="btn-ground text-center">
 												<button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> Добавить в корзину</button>
-												<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> В избранное</button>
 											</div>
 											<div class="space-ten"></div>
 										</div>
@@ -454,7 +457,9 @@
 							<li><a href="index.php" style="text-decoration: none;">Главная</a></li>
 							<li><a href="about.php" style="text-decoration: none;">О нас</a></li>
 							<li><a href="contacts.php" style="text-decoration: none;">Контакты</a></li>
-							<li><a href="#" style="text-decoration: none;">Товары</a></li>
+							<li><a href="products.php" style="text-decoration: none;">Товары</a></li>
+							<li><a href="shopping_cart.php" style="text-decoration: none;">Корзина</a></li>
+							<li><a href="wishlist.php" style="text-decoration: none;">Избранные товары</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-2 footers-three">

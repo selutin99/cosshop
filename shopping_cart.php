@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <title>Creative Online Store - Lenovo S850</title>
+        <title>Creative Online Store - Корзина</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,13 +38,18 @@
 						<li><a href="about.php">О нас</a></li>
 						<li><a href="contacts.php">Контакты</a></li>
 						
-						<li class="dropdown">
+						<li class="dropdown active">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 								Товары
 								<span class="caret"></span>
 							</a>
 						    <ul class="dropdown-menu">
 								<li><a href="products.php">Все товары</a></li>
+								
+								<li class="dropdown-header">Добавленные товары</li>
+								<li><a href="shopping_cart.php">Корзина</a></li>
+								<li><a href="wishlist.php">Избранные товары</a></li>
+								
 								<li class="dropdown-header">Категории</li>
 								<li><a href="#">Мобильные телефоны</a></li>
 								<li><a href="#">Наушники</a></li>
@@ -190,7 +195,7 @@
 									</a>
 								</div>
 								<div class="col-sm-7">
-									<h4 class="nomargin">Lenovo Y 7.1</h4>
+									<h4 class="nomargin"><a href="single_item.php">Lenovo Y 7.1</a></h4>
 									<p>Lenovo GXD0J16085 – игровые наушники с микрофоном, поддерживающие технологию USB 3.0. Это обеспечивает совместимость с большинством современных гаджетов, высокую скорость и производительность. Максимально объёмный звук!</p>
 								</div>
 							</div>
@@ -212,7 +217,7 @@
 									</a>
 								</div>
 								<div class="col-sm-7">
-									<h4 class="nomargin">Lenovo S850</h4>
+									<h4 class="nomargin"><a href="single_item.php">Lenovo S850</a></h4>
 									<p>Тонкий и легкий смартфон Lenovo S850 подчеркнет ваш неповторимый стиль. Модель в стеклянном корпусе оснащена 5-дюймовыйм дисплеем с HD разрешением и широкими углами обзора, мощным четырехъядерным процессором и двумя SIM-картами.</p>
 								</div>
 							</div>
@@ -231,7 +236,7 @@
 						<td class="total_price"><strong>Всего: 8800 р.</strong></td>
 					</tr>
 					<tr>
-						<td><a href="products.php" class="btn btn-primary"><i class="fa fa-angle-left"></i> Продолжить шопинг</a></td>
+						<td><a href="products.php" id="continue_shopping" class="btn btn-primary"><i class="fa fa-angle-left"></i> Продолжить шопинг</a></td>
 						<td colspan="2" class="hidden-xs"></td>
 						<td class="hidden-xs text-center total_price"><strong>Всего: 8800 р.</strong></td>
 						<td><a href="#" class="btn btn-success btn-block">Оформить заказ <i class="fa fa-angle-right"></i></a></td>
@@ -277,7 +282,9 @@
 							<li><a href="index.php" style="text-decoration: none;">Главная</a></li>
 							<li><a href="about.php" style="text-decoration: none;">О нас</a></li>
 							<li><a href="contacts.php" style="text-decoration: none;">Контакты</a></li>
-							<li><a href="#" style="text-decoration: none;">Товары</a></li>
+							<li><a href="products.php" style="text-decoration: none;">Товары</a></li>
+							<li><a href="shopping_cart.php" style="text-decoration: none;">Корзина</a></li>
+							<li><a href="wishlist.php" style="text-decoration: none;">Избранные товары</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-2 footers-three">

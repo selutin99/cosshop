@@ -45,6 +45,11 @@
 							</a>
 						    <ul class="dropdown-menu">
 								<li><a href="products.php">Все товары</a></li>
+								
+								<li class="dropdown-header">Добавленные товары</li>
+								<li><a href="shopping_cart.php">Корзина</a></li>
+								<li><a href="wishlist.php">Избранные товары</a></li>
+								
 								<li class="dropdown-header">Категории</li>
 								<li><a href="#">Мобильные телефоны</a></li>
 								<li><a href="#">Наушники</a></li>
@@ -254,6 +259,8 @@
 							<li><a href="about.php" style="text-decoration: none;">О нас</a></li>
 							<li><a href="contacts.php" style="text-decoration: none;">Контакты</a></li>
 							<li><a href="products.php" style="text-decoration: none;">Товары</a></li>
+							<li><a href="shopping_cart.php" style="text-decoration: none;">Корзина</a></li>
+							<li><a href="wishlist.php" style="text-decoration: none;">Избранные товары</a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-2 footers-three">
