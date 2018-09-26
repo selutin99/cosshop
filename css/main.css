@@ -287,3 +287,6 @@
 	
 }
 /*****END SHOPPING CART******/
+[hidden] {
+  display: none !important;
+}
