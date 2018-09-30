@@ -38,7 +38,7 @@
 						<li><a href="about.php">О нас</a></li>
 						<li><a href="contacts.php">Контакты</a></li>
 						
-						<li class="dropdown active">
+						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 								Товары
 								<span class="caret"></span>
@@ -59,7 +59,7 @@
 					</ul>
 					
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="profile.php"><span class="glyphicon glyphicon-user"></span> Мой профиль</a></li>
+						<li class="active"><a href="profile.php"><span class="glyphicon glyphicon-user"></span> Мой профиль</a></li>
 						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Выход</a></li>
 					</ul>
 					
@@ -81,7 +81,7 @@
 		<!-- END HEADER-->
 		
 		<!--MAIN BLOCK-->
-		<div class="container">
+		<div class="container" style="min-height: 70vh;">
 			<div class="row">
 				<div class="col-md-3 ">
 					<div class="list-group" id="myList" role="tablist">

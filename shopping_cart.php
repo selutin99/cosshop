@@ -172,16 +172,15 @@
 		<!--END REGISTER MODAL-->
 		
 		<!--MAIN BLOCK-->
-		
-		<div class="container">
+		<div class="container" style="min-height: 70vh;">
 			<h2 align="center" style="margin-bottom: 20px;">Корзина</h2>
 			<table id="cart" class="table table-hover table-condensed">
 				<thead>
 					<tr>
 						<th style="width:50%">Товары</th>
-						<th style="width:10%">Цена</th>
+						<th style="width:15%">Цена</th>
 						<th style="width:10%">Остаток</th>
-						<th style="width:20%">Реальная стоимость</th>
+						<th style="width:15%">Реальная стоимость</th>
 						<th style="width:10%">Действия</th>
 					</tr>
 				</thead>

@@ -329,7 +329,7 @@
 							<div class="review-block">
 								<div class="row">
 									<div class="col-sm-3">
-										<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
+										<img src="images/profiles/min_avatar.png" class="img-rounded">
 										<div class="review-block-name"><a href="#">nktailor</a></div>
 										<div class="review-block-date">Сентябрь 29, 2018<br/></div>
 									</div>
@@ -342,7 +342,7 @@
 							<div class="review-block">
 								<div class="row">
 									<div class="col-sm-3">
-										<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
+										<img src="images/profiles/min_avatar.png" class="img-rounded">
 										<div class="review-block-name"><a href="#">nktailor</a></div>
 										<div class="review-block-date">Сентябрь 29, 2018<br/></div>
 									</div>
