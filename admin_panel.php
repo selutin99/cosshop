@@ -86,14 +86,19 @@
 			<div class="row">
 				<div class="col-md-3 ">
 					<div class="list-group" id="myList" role="tablist">
+						<h4 align="center">Пользователи</h4>
 						<a class="list-group-item list-group-item-action active" data-toggle="list" href="#users" role="tab">Список пользователей</a>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#roles" role="tab">Привилегии пользователей</a>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#comments" role="tab">Комментарии пользователей</a>
+						<h4 align="center">Поставщики и доставка</h4>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#suppliers" role="tab">Список поставщиков</a>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#deliveries" role="tab">Список служб доставки</a>
+						<h4 align="center">Товары</h4>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#products" role="tab">Список товаров</a>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#cat" role="tab">Категории товаров</a>
 						<a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#deleteModal" id="deleteProfile" style="cursor: pointer;">Удалить профиль</a>
+						<h4 align="center">Заказы</h4>
+						<a class="list-group-item list-group-item-action" data-toggle="list" href="#orders" role="tab">Список заказов</a>
 					</div>
 				</div>
 				<div class="col-md-9">
@@ -650,6 +655,110 @@
 							</div>
 						</div>
 						<!--END CATEGORIES-->
+						
+						<!--ORDER LIST-->
+						<div class="tab-pane" id="orders" role="tabpanel">
+							<div class="row">
+								<div class="col-md-12">
+									<h4 align="center">Список товаров</h4>
+									<div class="row" style="margin-bottom: 20px;">    
+										<div class="col-xs-8 col-xs-offset-2">
+											<div class="input-group">
+												<div class="input-group-btn search-panel">
+													<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+														<span id="search_concept">Фильтр</span> <span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu" role="menu">
+													  <li><a href="#se_order_cart">ID корзины</a></li>
+													  <li><a href="#se_order_del">Заказчики</a></li>
+													  <li><a href="#se_order_tax">Налог</a></li>
+													  <li><a href="#se_order_start_adress">Место отправления</a></li>
+													  <li><a href="#se_order_end_adress">Место доставки</a></li>
+													  <li><a href="#se_order_date_ord">Дата отправки</a></li>
+													  <li><a href="#se_order_date_depart">Дата начала отправления</a></li>
+													  <li><a href="#se_order_date_arrival">Дата прибытия</a></li>
+													  <li><a href="#se_order_date_arrival_fact">Дата прибытия (факт)</a></li>
+													  <li><a href="#se_order_total_cost">Общая стоимость</a></li>
+													  <li><a href="#se_order_status">Статус заказа</a></li>
+													  <li><a href="#se_order_details">Детали заказа</a></li>
+													  <li><a href="#se_order_report">Отчёт</a></li>
+													</ul>
+												</div>
+												<input type="hidden" name="search_param" value="all" id="search_param">         
+												<input type="text" class="form-control" name="x" placeholder="Поиск">
+												<span class="input-group-btn">
+													<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+												</span>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row" align="center" style="margin-bottom: 20px;">
+										<button class="btn btn-success">Добавить</button>
+									</div>
+									
+									<div class="table-responsive">	
+										<table id="mytable" class="table table-bordred table-striped">   
+											<thead>
+												<th>ID корзины</th>
+												<th>Заказчики</th>
+												<th>Налог</th>
+												<th>Место отправления</th>
+												<th>Место доставки</th>
+												<th>Дата отправки</th>
+												<th>Дата начала отправления</th>
+												<th>Дата прибытия</th>
+												<th>Дата прибытия (факт)</th>
+												<th>Общая стоимость</th>
+												<th>Статус заказа</th>
+												<th>Детали заказа</th>
+												<th>Отчёт</th>
+												
+												<th>Редакт.</th>
+												<th>Удалить</th>
+											</thead>
+											<tbody>
+												<tr>
+													<td>1</td>
+													<td><a href="mailto:pupkin@yandex.ru">pupkin@yandex.ru</a></td>
+													<td>#213.234</td>
+													<td>USA</td>
+													<td>Russia</td>
+													<td>15.09.2018</td>
+													<td>17.09.2018</td>
+													<td>30.09.2018</td>
+													<td>2.09.2018</td>
+													<td>8950р.</td>
+													<td>Доставлен</td>
+													<td></td>
+													<td>Заказ успешно доставлен</td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+												</tr>
+												<tr>
+													<td>5</td>
+													<td><a href="mailto:pupkin@yandex.ru">pupkin@yandex.ru</a></td>
+													<td>#223.534</td>
+													<td>Poland</td>
+													<td>Russia</td>
+													<td>10.09.2018</td>
+													<td>18.09.2018</td>
+													<td>29.09.2018</td>
+													<td>3.09.2018</td>
+													<td>12350р.</td>
+													<td>Доставлен</td>
+													<td></td>
+													<td>Заказ успешно доставлен</td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--END ORDER LIST-->
 					</div>	
 				</div>
 			</div>
