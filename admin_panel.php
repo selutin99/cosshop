@@ -69,6 +69,7 @@
 						<div class="input-group">
 						<input type="text" class="form-control" placeholder="Поиск">
 							<div class="input-group-btn">
+							<div class="input-group-btn">
 								<button class="btn btn-default" type="submit">
 									<i class="glyphicon glyphicon-search"></i>
 								</button>
@@ -95,8 +96,8 @@
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#deliveries" role="tab">Список служб доставки</a>
 						<h4 align="center">Товары</h4>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#products" role="tab">Список товаров</a>
+						<a class="list-group-item list-group-item-action" data-toggle="list" href="#discounts" role="tab">Скидки на товары</a>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#cat" role="tab">Категории товаров</a>
-						<a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#deleteModal" id="deleteProfile" style="cursor: pointer;">Удалить профиль</a>
 						<h4 align="center">Заказы</h4>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#orders" role="tab">Список заказов</a>
 					</div>
@@ -156,8 +157,8 @@
 													<td>Мужской</td>
 													<td>1.01.1990</td>
 													<td>ул. Пушкина, д.3, кв. 5</td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_user" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_user" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 												
 												<tr>
@@ -168,8 +169,8 @@
 													<td>Мужской</td>
 													<td>1.01.1990</td>
 													<td>ул. Пушкина, д.3, кв. 5</td>
-													<td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-													<td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_user" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_user" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 												
 												<tr>
@@ -180,8 +181,8 @@
 													<td>Мужской</td>
 													<td>1.01.1990</td>
 													<td>ул. Пушкина, д.3, кв. 5</td>
-													<td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-													<td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_user" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_user" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 											</tbody>
 										</table>
@@ -237,7 +238,7 @@
 															<option>Менеджер</option>
 														</select>
 													</td>
-													<td><button class="btn btn-success">Подтвердить</button></td>
+													<td><button class="btn btn-success" data-toggle="modal" data-target="#accept_role">Подтвердить</button></td>
 												</tr>
 												
 												<tr>
@@ -250,7 +251,7 @@
 															<option>Менеджер</option>
 														</select>
 													</td>
-													<td><button class="btn btn-success">Подтвердить</button></td>
+													<td><button class="btn btn-success" data-toggle="modal" data-target="#accept_role">Подтвердить</button></td>
 												</tr>
 												
 												<tr>
@@ -263,7 +264,7 @@
 															<option>Менеджер</option>
 														</select>
 													</td>
-													<td><button class="btn btn-success">Подтвердить</button></td>
+													<td><button class="btn btn-success" data-toggle="modal" data-target="#accept_role">Подтвердить</button></td>
 												</tr>
 											</tbody>
 										</table>
@@ -320,7 +321,7 @@
 													<td>Отлично</td>
 													<td>Да всё просто зашибись</td>
 													<td>12.01.2018</td>
-													<td> <button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Удалить</button> </td>
+													<td><button class="btn btn-danger" data-toggle="modal" data-target="#delete_comment"><span class="glyphicon glyphicon-trash"></span> Удалить</button> </td>
 												</tr>
 												
 												<tr>
@@ -329,7 +330,7 @@
 													<td>Плохо</td>
 													<td>Не берите</td>
 													<td>12.01.2018</td>
-													<td> <button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Удалить</button> </td>
+													<td> <button class="btn btn-danger" data-toggle="modal" data-target="#delete_comment"><span class="glyphicon glyphicon-trash"></span> Удалить</button> </td>
 												</tr>
 												
 												<tr>
@@ -338,7 +339,7 @@
 													<td>Клёво</td>
 													<td>Берите</td>
 													<td>13.02.2018</td>
-													<td> <button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Удалить</button> </td>
+													<td> <button class="btn btn-danger" data-toggle="modal" data-target="#delete_comment"><span class="glyphicon glyphicon-trash"></span> Удалить</button> </td>
 												</tr>
 											</tbody>
 										</table>
@@ -378,7 +379,7 @@
 									</div>
 									
 									<div class="row" align="center" style="margin-bottom: 20px;">
-										<button class="btn btn-success">Добавить</button>
+										<button class="btn btn-success" data-toggle="modal" data-target="#add_suppliers">Добавить</button>
 									</div>
 									
 									<div class="table-responsive">	
@@ -399,8 +400,8 @@
 													<td>USA</td>
 													<td>89272278616</td>
 													<td><a href="https://www.asus.com" target="_blank">asus.com</a></td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_suppliers" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_suppliers" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 												<tr>
 													<td>Lenovo</td>
@@ -408,8 +409,8 @@
 													<td>Poland</td>
 													<td>89370207180</td>
 													<td><a href="https://www.lenovo.com" target="_blank">lenovo.com</a></td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_suppliers" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_suppliers" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 											</tbody>
 										</table>
@@ -449,7 +450,7 @@
 									</div>
 									
 									<div class="row" align="center" style="margin-bottom: 20px;">
-										<button class="btn btn-success">Добавить</button>
+										<button class="btn btn-success" data-toggle="modal" data-target="#add_deliveries">Добавить</button>
 									</div>
 									
 									<div class="table-responsive">	
@@ -470,8 +471,8 @@
 													<td>USA</td>
 													<td>89370506182</td>
 													<td></td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_deliveries" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_deliveries" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 												<tr>
 													<td>DeliveryClub</td>
@@ -479,8 +480,8 @@
 													<td>Russia</td>
 													<td>88003535355</td>
 													<td></td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_deliveries" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_deliveries" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 											</tbody>
 										</table>
@@ -527,13 +528,15 @@
 									</div>
 									
 									<div class="row" align="center" style="margin-bottom: 20px;">
-										<button class="btn btn-success">Добавить</button>
+										<button class="btn btn-success" data-toggle="modal" data-target="#add_product">Добавить</button>
 									</div>
 									
 									<div class="table-responsive">	
 										<table id="mytable" class="table table-bordred table-striped">   
 											<thead>
 												<th>Фото</th>
+												<th>Фото<br/>#1</th>
+												<th>Фото<br/>#2</th>
 												<th>Название</th>
 												<th>Производитель</th>
 												<th>Категория</th>
@@ -556,6 +559,10 @@
 													<td>
 														<img src="images/goods/b1.jpg" alt="Lenovo S850" class="img-responsive">
 													</td>
+													<td>
+														<img src="images/goods/b1-1.jpg" alt="Lenovo S850" class="img-responsive">
+													</td>
+													<td></td>
 													<td><a href="single_item.php">Lenovo S850</a></td>
 													<td>Lenovo</td>
 													<td>Телефон</td>
@@ -569,13 +576,15 @@
 													<td></td>
 													<td>12.02.2018</td>
 													<td>5</td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_product" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_product" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 												<tr>
 													<td>
 														<img src="images/goods/b2.jpg" alt="ASUS ZenFone Go ZB452KG" class="img-responsive">
 													</td>
+													<td></td>
+													<td></td>
 													<td><a href="single_item.php">ASUS ZenFone Go ZB452KG</a></td>
 													<td>ASUS</td>
 													<td>Телефон</td>
@@ -589,8 +598,8 @@
 													<td></td>
 													<td>13.03.2018</td>
 													<td>6</td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_product" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_product" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 											</tbody>
 										</table>
@@ -599,6 +608,54 @@
 							</div>
 						</div>
 						<!--END PRODUCTS LIST-->
+						
+						<!--DISCOUNTS-->
+						<div class="tab-pane" id="discounts" role="tabpanel">
+							<div class="row">
+								<div class="col-md-12">
+									<h4 align="center">Скидки на товары</h4>
+									
+									<div class="row" style="margin-bottom: 20px;">    
+										<div class="col-xs-8 col-xs-offset-2">
+											<div class="input-group">
+												<input type="hidden" name="search_param" value="all" id="search_param">         
+												<input type="text" class="form-control" name="x" placeholder="Поиск">
+												<span class="input-group-btn">
+													<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+												</span>
+											</div>
+										</div>
+									</div>
+									
+									<div class="table-responsive">	
+										<table id="mytable" class="table table-bordred table-striped">   
+											<thead>
+												<th>Название товара</th>
+												<th>Скидочная цена</th>
+												<th>Отмена скидки</th>
+												<th>Добавление скидки</th>
+											</thead>
+											<tbody>
+												<tr>
+													<td><a href="single_item.php">ASUSPRO B9440UA</a></td>
+													<td><input type="text" class="form-control" value="28800 р."/></td>
+													<td><button style="margin-top: 10px;" class="btn btn-danger" data-toggle="modal" data-target="#discount_delete">Отмена</button></td>
+													<td><button class="btn btn-success" data-toggle="modal" data-target="#discount_add">Подтвердить</button></td>
+												</tr>
+												
+												<tr>
+													<td><a href="single_item.php">Samsung Galaxy S7</a></td>
+													<td><input type="text" class="form-control" value="9800 р."/></td>
+													<td><button style="margin-top: 10px;" class="btn btn-danger" data-toggle="modal" data-target="#discount_delete">Отмена</button></td>
+													<td><button class="btn btn-success" data-toggle="modal" data-target="#discount_add">Подтвердить</button></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--DISCOUNTS-->
 						
 						<!--CATEGORIES-->
 						<div class="tab-pane" id="cat" role="tabpanel">
@@ -633,20 +690,20 @@
 												<tr>
 													<td>Телефоны</td>
 													<td></td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_categories" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_category" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 												<tr>
 													<td>Ноутбуки</td>
 													<td></td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_categories" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_category" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 												<tr>
 													<td>Наушники</td>
 													<td></td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_categories" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_category" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 											</tbody>
 										</table>
@@ -660,7 +717,7 @@
 						<div class="tab-pane" id="orders" role="tabpanel">
 							<div class="row">
 								<div class="col-md-12">
-									<h4 align="center">Список товаров</h4>
+									<h4 align="center">Список заказов</h4>
 									<div class="row" style="margin-bottom: 20px;">    
 										<div class="col-xs-8 col-xs-offset-2">
 											<div class="input-group">
@@ -691,10 +748,6 @@
 												</span>
 											</div>
 										</div>
-									</div>
-									
-									<div class="row" align="center" style="margin-bottom: 20px;">
-										<button class="btn btn-success">Добавить</button>
 									</div>
 									
 									<div class="table-responsive">	
@@ -732,8 +785,8 @@
 													<td>Доставлен</td>
 													<td></td>
 													<td>Заказ успешно доставлен</td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_order" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_order" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 												<tr>
 													<td>5</td>
@@ -749,8 +802,8 @@
 													<td>Доставлен</td>
 													<td></td>
 													<td>Заказ успешно доставлен</td>
-													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></td>
-													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></td>
+													<td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit_order" ><span class="glyphicon glyphicon-pencil"></span></button></td>
+													<td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete_order" ><span class="glyphicon glyphicon-trash"></span></button></td>
 												</tr>
 											</tbody>
 										</table>
@@ -765,21 +818,871 @@
 		</div>
 		<!--END MAIN BLOCK-->
 		
-		<!--RESIZE IMAGE-->
-		<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Закрыть</span></button>
-						<h4 class="modal-title" id="image-gallery-title"></h4>
-					</div>
-					<div class="modal-body">
-						<img id="image-gallery-image" class="img-responsive" src="">
-					</div>
+		<!--EDIT USER MODAL-->
+		<div id="edit_user" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Редактирование</h2>
 				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="edituserEmail">Email</label>
+						<input type="email" id="edituserEmail" class="form-control" placeholder="Email" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="edituserLastName">Фамилия</label>
+						<input type="text" id="edituserLastName" class="form-control" placeholder="Фамилия">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="edituserFirstName">Имя</label>
+						<input type="text" id="edituserFirstName" class="form-control" placeholder="Имя">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editUserFamilyName">Отчество</label>
+						<input type="text" id="editUserFamilyName" class="form-control" placeholder="Отчество">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editUserSex">Пол</label>
+						<select class="form-control" id="exampleFormControlSelect">
+							<option>Мужской</option>
+							<option>Женский</option>
+						</select>
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editUserBirthday">Дата рождения</label>
+						<input type="date" id="editUserBirthday" class="form-control" placeholder="Дата рождения">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editUserAdress">Адрес</label>
+						<input type="text" id="editUserAdress" class="form-control" placeholder="Адрес">
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Изменить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
 			</div>
+		  </div>
 		</div>
-		<!--END RESIZE IMAGE-->
+		<!--END EDIT USER MODAL-->
+		
+		<!--EDIT SUPPLIER MODAL-->
+		<div id="edit_suppliers" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Редактирование</h2>
+				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="editSuppliersName">Название</label>
+						<input type="text" id="editSuppliersName" class="form-control" placeholder="Название" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="editSuppliersDesc">Описание</label>
+						<input type="text" id="editSuppliersDesc" class="form-control" placeholder="Описание">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editSuppliersCity">Город</label>
+						<input type="text" id="editSuppliersCity" class="form-control" placeholder="Город">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editSuppliersPhone">Телефон</label>
+						<input type="phone" id="editSuppliersPhone" class="form-control" placeholder="Телефон">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editSuppliersSuite">Сайт</label>
+						<input type="text" id="editSuppliersSuite" class="form-control" placeholder="Сайт">
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Изменить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END EDIT SUPPLIER MODAL-->
+		
+		<!--ADD SUPPLIER MODAL-->
+		<div id="add_suppliers" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Добавление</h2>
+				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="editSuppliersName">Название</label>
+						<input type="text" id="editSuppliersName" class="form-control" placeholder="Название" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="editSuppliersDesc">Описание</label>
+						<input type="text" id="editSuppliersDesc" class="form-control" placeholder="Описание">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editSuppliersCity">Город</label>
+						<input type="text" id="editSuppliersCity" class="form-control" placeholder="Город">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editSuppliersPhone">Телефон</label>
+						<input type="phone" id="editSuppliersPhone" class="form-control" placeholder="Телефон">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editSuppliersSuite">Сайт</label>
+						<input type="text" id="editSuppliersSuite" class="form-control" placeholder="Сайт">
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Изменить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END ADD SUPPLIER MODAL-->
+		
+		<!--ADD DELIVERIES MODAL-->
+		<div id="add_deliveries" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Добавление</h2>
+				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="editDeliveriesName">Название</label>
+						<input type="text" id="editDeliveriesName" class="form-control" placeholder="Название" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="editDeliveriesDesc">Описание</label>
+						<input type="text" id="editDeliveriesDesc" class="form-control" placeholder="Описание">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editDeliveriesCity">Город</label>
+						<input type="text" id="editDeliveriesCity" class="form-control" placeholder="Город">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editDeliveriesPhone">Телефон</label>
+						<input type="phone" id="editDeliveriesPhone" class="form-control" placeholder="Телефон">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editDeliveriesEmail">Email</label>
+						<input type="text" id="editDeliveriesEmail" class="form-control" placeholder="Email">
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Добавить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END ADD DELIVERIES MODAL-->
+		
+		<!--EDIT DELIVERIES MODAL-->
+		<div id="edit_deliveries" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Редактирование</h2>
+				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="editDeliveriesName">Название</label>
+						<input type="text" id="editDeliveriesName" class="form-control" placeholder="Название" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="editDeliveriesDesc">Описание</label>
+						<input type="text" id="editDeliveriesDesc" class="form-control" placeholder="Описание">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editDeliveriesCity">Город</label>
+						<input type="text" id="editDeliveriesCity" class="form-control" placeholder="Город">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editDeliveriesPhone">Телефон</label>
+						<input type="phone" id="editDeliveriesPhone" class="form-control" placeholder="Телефон">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editDeliveriesEmail">Email</label>
+						<input type="text" id="editDeliveriesEmail" class="form-control" placeholder="Email">
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Изменить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END EDIT DELIVERIES MODAL-->
+		
+		<!--EDIT CATEGORIES MODAL-->
+		<div id="edit_categories" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Редактирование</h2>
+				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="editDeliveriesName">Название</label>
+						<input type="text" id="editDeliveriesName" class="form-control" placeholder="Название" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="editDeliveriesDesc">Подкатегория</label>
+						<select class="form-control" id="exampleFormControlSelect">
+							<option>Телефоны</option>
+							<option>Ноутбуки</option>
+							<option>Наушники</option>
+						</select>
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Изменить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END EDIT CATEGORIES MODAL-->
+		
+		<!--ADD PRODUCT MODAL-->
+		<div id="add_product" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Добавление</h2>
+				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="editProductPhoto">Фото</label>
+						<input id="editProductPhoto" name="avatar" class="form-control here" type="file" accept="image/*">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPhoto1">Фото #1</label>
+						<input id="editProductPhoto1" name="avatar1" class="form-control here" type="file" accept="image/*">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPhoto2">Фото #2</label>
+						<input id="editProductPhoto2" name="avatar2" class="form-control here" type="file" accept="image/*">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductName">Название</label>
+						<input type="text" id="editProductName" class="form-control" placeholder="Название" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="editProductSupplier">Производитель</label>
+						<input type="text" id="editProductSupplier" class="form-control" placeholder="Производитель">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductCategory">Категория</label>
+						<input type="text" id="editProductCategory" class="form-control" placeholder="Категория">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductUserAdded">Добавлен пользователем</label>
+						<input type="text" id="editProductUserAdded" class="form-control" placeholder="Добавлен пользователем">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductTax">Налог</label>
+						<input type="text" id="editProductTax" class="form-control" placeholder="Налог">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductColor">Цвет</label>
+						<input type="text" id="editProductColor" class="form-control" placeholder="Цвет">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductDescriptionShort">Описание сокращённое</label>
+						<input type="text" id="editProductDescriptionShort" class="form-control" placeholder="Описание сокращённое">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductDescriptionFull">Описание полное</label>
+						<input type="text" id="editProductDescriptionFull" class="form-control" placeholder="Описание полное">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductCity">Город</label>
+						<input type="text" id="editProductCity" class="form-control" placeholder="Город">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPrice">Цена</label>
+						<input type="text" id="editSuppliersPrice" class="form-control" placeholder="Цена">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPriceDiscount">Цена по скидке</label>
+						<input type="text" id="editSuppliersPriceDiscount" class="form-control" placeholder="Скидочная цена">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductDate">Дата добавления</label>
+						<input type="date" id="editProductDate" class="form-control" placeholder="Дата добавления">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductReq">Остаток</label>
+						<input type="text" id="editProductReq" class="form-control" placeholder="Остаток">
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Добавить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END ADD PRODUCT MODAL-->
+		
+		<!--EDIT PRODUCT MODAL-->
+		<div id="edit_product" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Редактирование</h2>
+				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="editProductPhoto">Фото</label>
+						<input id="editProductPhoto" name="avatar" class="form-control here" type="file" accept="image/*">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPhoto1">Фото #1</label>
+						<input id="editProductPhoto1" name="avatar1" class="form-control here" type="file" accept="image/*">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPhoto2">Фото #2</label>
+						<input id="editProductPhoto2" name="avatar2" class="form-control here" type="file" accept="image/*">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductName">Название</label>
+						<input type="text" id="editProductName" class="form-control" placeholder="Название" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="editProductSupplier">Производитель</label>
+						<input type="text" id="editProductSupplier" class="form-control" placeholder="Производитель">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductCategory">Категория</label>
+						<input type="text" id="editProductCategory" class="form-control" placeholder="Категория">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductUserAdded">Добавлен пользователем</label>
+						<input type="text" id="editProductUserAdded" class="form-control" placeholder="Добавлен пользователем">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductTax">Налог</label>
+						<input type="text" id="editProductTax" class="form-control" placeholder="Налог">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductColor">Цвет</label>
+						<input type="text" id="editProductColor" class="form-control" placeholder="Цвет">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductDescriptionShort">Описание сокращённое</label>
+						<input type="text" id="editProductDescriptionShort" class="form-control" placeholder="Описание сокращённое">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductDescriptionFull">Описание полное</label>
+						<input type="text" id="editProductDescriptionFull" class="form-control" placeholder="Описание полное">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductCity">Город</label>
+						<input type="text" id="editProductCity" class="form-control" placeholder="Город">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPrice">Цена</label>
+						<input type="text" id="editSuppliersPrice" class="form-control" placeholder="Цена">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPriceDiscount">Цена по скидке</label>
+						<input type="text" id="editSuppliersPriceDiscount" class="form-control" placeholder="Скидочная цена">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductDate">Дата добавления</label>
+						<input type="date" id="editProductDate" class="form-control" placeholder="Дата добавления">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductReq">Остаток</label>
+						<input type="text" id="editProductReq" class="form-control" placeholder="Остаток">
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Изменить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END EDIT PRODUCT MODAL-->
+		
+		<!--EDIT ORDER MODAL-->
+		<div id="edit_order" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Редактирование</h2>
+				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="editOrderShopCart">ID корзины</label>
+						<input type="text" id="editOrderShopCart" class="form-control" placeholder="ID корзины" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="editOrderClient">Заказчик</label>
+						<input type="text" id="editOrderClient" class="form-control" placeholder="Заказчик">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderTax">Налог</label>
+						<input type="text" id="editOrderTax" class="form-control" placeholder="Налог">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderAdressStart">Место отправления</label>
+						<input type="text" id="editAdressStart" class="form-control" placeholder="Место отправления">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderAdressEnd">Место доставки</label>
+						<input type="text" id="editOrderAdressEnd" class="form-control" placeholder="Место доставки">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderDateStart">Дата отправки</label>
+						<input type="text" id="editOrderDateStart" class="form-control" placeholder="Дата отправки">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderDateEnd">Дата прибытия</label>
+						<input type="text" id="editOrderDateEnd" class="form-control" placeholder="Дата прибытия">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderDateEndFact">Дата прибытия по факту</label>
+						<input type="text" id="editOrderDateEndFact" class="form-control" placeholder="Дата прибытия по факту">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderTotalPrice">Общая стоимость</label>
+						<input type="text" id="editOrderTotalPrice" class="form-control" placeholder="Общая стоимость">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderStatus">Статус заказа</label>
+						<input type="text" id="editOrderStatus" class="form-control" placeholder="Статус заказа">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderDetails">Детали заказа</label>
+						<input type="text" id="editOrderDetails" class="form-control" placeholder="Детали заказа">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editOrderReport">Отчёт</label>
+						<input type="date" id="editOrderReport" class="form-control" placeholder="Отчёт">
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Изменить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END EDIT ORDER MODAL-->
+		
+		<!--DELETE USER MODAL-->
+		<div id="delete_user" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Удаление</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите удаление пользователя!</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger" style="margin-top: 10px;">Удалить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END DELETE USER MODAL-->
+		
+		<!--ACCEPT ROLE MODAL-->
+		<div id="accept_role" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Подтверждение</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите изменение роли пользователя.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Подтвердить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END ACCEPT ROLE MODAL-->
+		
+		<!--DELETE COMMENT MODAL-->
+		<div id="delete_comment" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Удаление</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите удаление комментария!</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger" style="margin-top: 10px;">Удалить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END DELETE COMMENT MODAL-->
+		
+		<!--DELETE SUPPLIERS MODAL-->
+		<div id="delete_suppliers" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Удаление</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите удаление поставщика!</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger" style="margin-top: 10px;">Удалить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END DELETE SUPPLIERS MODAL-->
+		
+		<!--DELETE DELIVERIES MODAL-->
+		<div id="delete_deliveries" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Удаление</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите удаление службы доставки!</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger" style="margin-top: 10px;">Удалить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END DELIVERIES MODAL-->
+		
+		<!--DELETE PRODUCT MODAL-->
+		<div id="delete_product" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Удаление</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите удаление продукта.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger" style="margin-top: 10px;">Удалить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END PRODUCT MODAL-->
+		
+		<!--DELETE DISCOUNT MODAL-->
+		<div id="discount_delete" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Удаление</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите отмену скидки.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger" style="margin-top: 10px;">Удалить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END DELETE DISCOUNT MODAL-->
+		
+		<!--DELETE CATEGORIES MODAL-->
+		<div id="delete_category" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Удаление</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите удаление категории.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger" style="margin-top: 10px;">Удалить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END DELETE CATEGORIES MODAL-->
+		
+		<!--DELETE ORDER MODAL-->
+		<div id="delete_order" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Удаление</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите удаление заказа.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-danger" style="margin-top: 10px;">Удалить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END DELETE ORDER MODAL-->
+		
+		<!--DELETE ACCEPT DISCOUNT MODAL-->
+		<div id="discount_add" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+						
+						<div class="row">
+							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+							<h2 class="modal-title">Подтверждение</h2>
+						</div>
+					</div>
+			  <div class="modal-body">
+				<p>Подтвердите добавление на скидку.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Подтвердить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END DELETE ACCEPT DISCOUNT MODAL-->
 		
 		<!--FOOTER-->
 		<div class="footers bg-light pt-5 pb-3" style="padding-top: 10px; background-color: #222222; color: white;">

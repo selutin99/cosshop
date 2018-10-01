@@ -59,8 +59,8 @@
 					</ul>
 					
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#" data-toggle="modal" data-target="#registerModal"><span class="glyphicon glyphicon-user"></span> Регистрация</a></li>
-						<li><a href="#" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Вход</a></li>
+						<li><a href="profile.php"><span class="glyphicon glyphicon-user"></span> Мой профиль</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Выход</a></li>
 					</ul>
 					
 					<!--SEARCH-->
