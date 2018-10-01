@@ -172,7 +172,7 @@
 		<!--END REGISTER MODAL-->
 		
 		<!--MAIN BLOCK-->
-		<div class="container" style="min-height: 70vh;">
+		<div class="container" style="min-height: 75vh;">
 			<h2 align="center" style="margin-bottom: 20px;">Корзина</h2>
 			<table id="cart" class="table table-hover table-condensed">
 				<thead>
