@@ -81,7 +81,7 @@
 		<!-- END HEADER-->
 		
 		<!--MAIN BLOCK-->
-		<div class="container" style="min-height: 70vh;">
+		<div class="container" style="min-height: 75vh;">
 			<div class="row">
 				<div class="col-md-3 ">
 					<div class="list-group" id="myList" role="tablist">
