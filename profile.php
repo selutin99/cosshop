@@ -86,6 +86,7 @@
 				<div class="col-md-3 ">
 					<div class="list-group" id="myList" role="tablist">
 						<a class="list-group-item list-group-item-action active" data-toggle="list" href="#profile" role="tab">Мой профиль</a>
+						<a class="list-group-item list-group-item-action" data-toggle="list" href="#my_orders" role="tab">Мои заказы</a>
 						<a class="list-group-item list-group-item-action" data-toggle="list" href="#edit" role="tab">Редактировать профиль</a>
 						<a class="list-group-item list-group-item-action" href="contacts.php" onclick="gotoContacts();">Написать менеджеру</a>
 						<a class="list-group-item list-group-item-action" data-toggle="modal" data-target="#deleteModal" id="deleteProfile" style="cursor: pointer;">Удалить профиль</a>
@@ -145,6 +146,58 @@
 							</div>
 						</div>
 						<!--END PROFILE-->
+						
+						<!--MY ORDERS-->
+						<div class="tab-pane" id="my_orders" role="tabpanel">
+							<div class="panel panel-info">
+								<div class="panel-heading" style="padding: 20px;">
+									<h3 class="panel-title">Список заказов</h3>
+								</div>
+								<div class="panel-body">
+									<div class="row">
+										<div class=" col-md-12"> 
+											<div class="table-responsive">	
+												<table class="table table-bordered table-striped">
+													<thead>
+														<tr>
+															<th>ID заказа</th>
+															<th>Статус</th>
+															<th>Служба доставки</th>
+															<th>Дата заказа</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>1</td>
+															<td>Заказ успешно доставлен</td>
+															<td>TestDel</td>
+															<td>2.9.2018</td>
+														</tr>
+														<tr>
+															<td>2</td>
+															<td>Заказ успешно доставлен</td>
+															<td>TestDel</td>
+															<td>10.9.2018</td>
+														</tr>
+														<tr>
+															<td>3</td>
+															<td>Заказ доставляется</td>
+															<td>TestDel</td>
+															<td>3.10.2018</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel-footer">
+									<a href="shopping_cart.php" class="btn btn-primary">Корзина</a>
+									<a href="wishlist.php" class="btn btn-primary">Избранные товары</a>
+								</div>
+							</div>
+						</div>
+						<!--END MY ORDERS-->
 						
 						<!--EDIT PROFILE-->
 						<div class="tab-pane" id="edit" role="tabpanel">
@@ -335,7 +388,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/slick.js"></script>
 		
 		<script src="js/filter.js"></script>
 		<script src="js/backtop.js"></script>

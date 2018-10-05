@@ -1552,7 +1552,7 @@
 			</div>
 		  </div>
 		</div>
-		<!--END DELIVERIES MODAL-->
+		<!--END DELETE DELIVERIES MODAL-->
 		
 		<!--DELETE PRODUCT MODAL-->
 		<div id="delete_product" class="modal" tabindex="-1" role="dialog">
@@ -1658,7 +1658,7 @@
 		</div>
 		<!--END DELETE ORDER MODAL-->
 		
-		<!--DELETE ACCEPT DISCOUNT MODAL-->
+		<!--ACCEPT DISCOUNT MODAL-->
 		<div id="discount_add" class="modal" tabindex="-1" role="dialog">
 		  <div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -1682,7 +1682,7 @@
 			</div>
 		  </div>
 		</div>
-		<!--END DELETE ACCEPT DISCOUNT MODAL-->
+		<!--END ACCEPT DISCOUNT MODAL-->
 		
 		<!--FOOTER-->
 		<div class="footers bg-light pt-5 pb-3" style="padding-top: 10px; background-color: #222222; color: white;">
@@ -1752,7 +1752,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script src="js/slick.js"></script>
 		
 		<script src="js/filter.js"></script>
 		<script src="js/backtop.js"></script>
