@@ -213,7 +213,7 @@
 										  <label>Минимум</label>
 										  <input type="number" class="form-control" placeholder="min">
 										</div>
-										<div class="form-group col-md-6 text-right">
+										<div class="form-group col-md-6">
 										  <label>Максимум</label>
 										  <input type="number" class="form-control" placeholder="max">
 										</div>
