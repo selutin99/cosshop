@@ -209,12 +209,12 @@
 					  <h3>Ноутбуки</h3>
 					  <p>Новые поступления!</p>
 					</div>
-					<img src="images/mainslider/n1.jpg" class="center-block" style="width:60%; max-height: 350px;" alt="Новые ноутбуки">
+					<img src="images/mainslider/n1.jpg" class="center-block" style="max-width:60%; max-height: 350px;" alt="Новые ноутбуки">
 					
 				  </div>
 
 				  <div class="item">
-					<img src="images/mainslider/n2.jpg" class="center-block" style="width:60%; max-height: 350px;" alt="Новые смартфоны">
+					<img src="images/mainslider/n2.jpg" class="center-block" style="max-width:60%; max-height: 350px;" alt="Новые смартфоны">
 					<div class="carousel-caption">
 					  <h3>Смартфоны</h3>
 					  <p>Новые модели!</p>
@@ -222,7 +222,7 @@
 				  </div>
 				
 				  <div class="item">
-					<img src="images/mainslider/n3.jpg" class="center-block" style="width:60%; max-height: 350px;" alt="Новые наушники">
+					<img src="images/mainslider/n3.jpg" class="center-block" style="max-width:60%; max-height: 350px;" alt="Новые наушники">
 					<div class="carousel-caption hot_prices">
 					  <h3>Наушники</h3>
 					  <p>Распродажа!</p>
