@@ -232,7 +232,7 @@
 				<ul class="nav nav-tabs nav_tabs">	
 					<li class="active"><a href="#full-description" data-toggle="tab">Полное описание</a></li>
 					<li><a href="#equality" data-toggle="tab">Подходящие товары</a></li>
-					<li><a href="#reviews" data-toggle="tab">Отзывы</a></li>
+					<li><a href="#reviews" data-toggle="tab">Отзывы покупателей</a></li>
 					<li><a href="#add-comment" data-toggle="tab">Добавить комментарий</a></li>
 				</ul>
 				<div id="myTabContent" class="tab-content">
