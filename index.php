@@ -116,8 +116,10 @@
 								<a href="#" data-toggle="modal" data-target="#registerModal" data-dismiss="modal">Зарегистрироваться</a> - <a href="#">Забыли пароль?</a>
 							</div>
 							
-							<div class="text-center"> 
-								<button class="btn btn-lg btn-info" type="submit" name="login">Войти</button>
+							<div class="modal-footer">
+								<div class="text-center"> 
+									<button class="btn btn-lg btn-info" type="submit" name="login">Войти</button>
+								</div>
 							</div>
 						</form>
 					</div>
@@ -161,8 +163,10 @@
 								<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Уже есть аккаунт?</a>
 							</div>
 							
-							<div class="text-center"> 
-								<button class="btn btn-lg btn-info" type="submit" name="registration">Зарегистрироваться</button>
+							<div class="modal-footer">
+								<div class="text-center"> 
+									<button class="btn btn-lg btn-info" type="submit" name="registration">Зарегистрироваться</button>
+								</div>
 							</div>
 						</form>
 					</div>
@@ -207,14 +211,14 @@
 				  <div class="item active">
 					<div class="carousel-caption">
 					  <h3>Ноутбуки</h3>
-					  <p>Новые поступления!</p>
+					  <p>Новинки!</p>
 					</div>
-					<img src="images/mainslider/n1.jpg" class="center-block" style="max-width:60%; max-height: 350px;" alt="Новые ноутбуки">
+					<img src="images/mainslider/n1.jpg" class="center-block" style="min-width:50%; max-height: 350px;" alt="Новые ноутбуки">
 					
 				  </div>
 
 				  <div class="item">
-					<img src="images/mainslider/n2.jpg" class="center-block" style="max-width:60%; max-height: 350px;" alt="Новые смартфоны">
+					<img src="images/mainslider/n2.jpg" class="center-block" style="min-width:50%; max-height: 350px;" alt="Новые смартфоны">
 					<div class="carousel-caption">
 					  <h3>Смартфоны</h3>
 					  <p>Новые модели!</p>
@@ -222,7 +226,7 @@
 				  </div>
 				
 				  <div class="item">
-					<img src="images/mainslider/n3.jpg" class="center-block" style="max-width:60%; max-height: 350px;" alt="Новые наушники">
+					<img src="images/mainslider/n3.jpg" class="center-block" style="min-width:50%; max-height: 350px;" alt="Новые наушники">
 					<div class="carousel-caption hot_prices">
 					  <h3>Наушники</h3>
 					  <p>Распродажа!</p>
@@ -436,25 +440,39 @@
 			<h2 align="center" style="margin-bottom: 30px;">Наши поставщики</h2>
 			<div class="slider slider-nav">
 				<div class="slide">
-					<img src="images/suppliers/tb1.jpg" alt="Samsung" class="img-responsive" />
+					<a href="http://samsung.com" target="_blank">
+						<img src="images/suppliers/tb1.jpg" alt="Samsung" class="img-responsive" />
+					</a>
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb2.jpg" alt="Canon" class="img-responsive" />
+					<a href="http://canon.com" target="_blank">
+						<img src="images/suppliers/tb2.jpg" alt="Canon" class="img-responsive" />
+					</a>
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb3.jpg" alt="HP" class="img-responsive" />
+					<a href="http://hp.com" target="_blank">
+						<img src="images/suppliers/tb3.jpg" alt="HP" class="img-responsive" />
+					</a>
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb4.jpg" alt="Cisco" class="img-responsive" />
+					<a href="http://cisco.com" target="_blank">
+						<img src="images/suppliers/tb4.jpg" alt="Cisco" class="img-responsive" />
+					</a>
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb5.jpg" alt="Panasonic" class="img-responsive" />
+					<a href="http://panasonic.com" target="_blank">
+						<img src="images/suppliers/tb5.jpg" alt="Panasonic" class="img-responsive" />
+					</a>
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb6.jpg" alt="Lenovo" class="img-responsive" />
+					<a href="https://lenovo.com" target="_blank">
+						<img src="images/suppliers/tb6.jpg" alt="Lenovo" class="img-responsive" />
+					</a>
 				</div>
 				<div class="slide">
-					<img src="images/suppliers/tb7.jpg" alt="Asus" class="img-responsive" />
+					<a href="https://asus.com" target="_blank">
+						<img src="images/suppliers/tb7.jpg" alt="Asus" class="img-responsive" />
+					</a>
 				</div>
 			</div>
 		</div>

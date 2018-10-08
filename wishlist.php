@@ -9,11 +9,6 @@
 		
 		<link rel="shortcut icon" type="image/png" href="images/logo/favicon.png"/>		
 		
-		<!--SLIDER LIBRARY--> 
-		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-		<!--END SLIDER LIBRARY-->
-		
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 		
         <link rel="stylesheet" href="css/bootstrap.min.css">	
@@ -116,8 +111,10 @@
 								<a href="#" data-toggle="modal" data-target="#registerModal" data-dismiss="modal">Зарегистрироваться</a> - <a href="#">Забыли пароль?</a>
 							</div>
 							
-							<div class="text-center"> 
-								<button class="btn btn-lg btn-info" type="submit" name="login">Войти</button>
+							<div class="modal-footer">
+								<div class="text-center"> 
+									<button class="btn btn-lg btn-info" type="submit" name="login">Войти</button>
+								</div>
 							</div>
 						</form>
 					</div>
@@ -161,8 +158,10 @@
 								<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Уже есть аккаунт?</a>
 							</div>
 							
-							<div class="text-center"> 
-								<button class="btn btn-lg btn-info" type="submit" name="registration">Зарегистрироваться</button>
+							<div class="modal-footer">
+								<div class="text-center"> 
+									<button class="btn btn-lg btn-info" type="submit" name="registration">Зарегистрироваться</button>
+								</div>
 							</div>
 						</form>
 					</div>

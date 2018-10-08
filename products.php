@@ -9,11 +9,6 @@
 		
 		<link rel="shortcut icon" type="image/png" href="images/logo/favicon.png"/>		
 		
-		<!--SLIDER LIBRARY--> 
-		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-		<!--END SLIDER LIBRARY-->
-		
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 		
         <link rel="stylesheet" href="css/bootstrap.min.css">	
@@ -116,8 +111,10 @@
 								<a href="#" data-toggle="modal" data-target="#registerModal" data-dismiss="modal">Зарегистрироваться</a> - <a href="#">Забыли пароль?</a>
 							</div>
 							
-							<div class="text-center"> 
-								<button class="btn btn-lg btn-info" type="submit" name="login">Войти</button>
+							<div class="modal-footer">
+								<div class="text-center"> 
+									<button class="btn btn-lg btn-info" type="submit" name="login">Войти</button>
+								</div>
 							</div>
 						</form>
 					</div>
@@ -161,8 +158,10 @@
 								<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Уже есть аккаунт?</a>
 							</div>
 							
-							<div class="text-center"> 
-								<button class="btn btn-lg btn-info" type="submit" name="registration">Зарегистрироваться</button>
+							<div class="modal-footer">
+								<div class="text-center"> 
+									<button class="btn btn-lg btn-info" type="submit" name="registration">Зарегистрироваться</button>
+								</div>
 							</div>
 						</form>
 					</div>
@@ -292,33 +291,6 @@
 						</div>
 					</div>
 					
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h3 class="panel-title">По цвету</h3>
-							<span class="pull-right clickable panel-collapsed"><i class="glyphicon glyphicon-chevron-down"></i></span>
-						</div>
-						<div class="panel-body collapse">
-							<header class="card-header">
-								<h2 align="center">Выберите цвет:</h2>
-							</header>
-							<div class="filter-content">
-								<div class="card-body">
-									<label class="btn btn-danger">
-									  <input class="" type="checkbox" name="myradio" value="">
-									  <span class="form-check-label">Красный</span>
-									</label>
-									<label class="btn btn-success">
-									  <input class="" type="checkbox" name="myradio" value="">
-									  <span class="form-check-label">Зелёный</span>
-									</label>
-									<label class="btn btn-primary">
-									  <input class="" type="checkbox" name="myradio" value="">
-									  <span class="form-check-label">Синий</span>
-									</label>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 				
 				<!--LIST OF PRODUCTS-->

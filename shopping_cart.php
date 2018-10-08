@@ -9,11 +9,6 @@
 		
 		<link rel="shortcut icon" type="image/png" href="images/logo/favicon.png"/>		
 		
-		<!--SLIDER LIBRARY--> 
-		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-		<!--END SLIDER LIBRARY-->
-		
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 		
         <link rel="stylesheet" href="css/bootstrap.min.css">	
@@ -79,97 +74,6 @@
 			</nav>
 		</header>
 		<!-- END HEADER-->
-		
-		<!-- LOGIN MODAL-->
-		<div class="modal" id="loginModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">×</span>
-						</button>
-						
-						<div class="row">
-							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
-							<h2 class="modal-title">Вход</h2>
-						</div>
-					</div>
-					<div class="modal-body">
-						<form class="form-signin">
-							<div class="form-label-group">
-								<label for="inputEmail">Email</label>
-								<input type="email" id="inputEmail" class="form-control" placeholder="Введите email" required autofocus>
-							</div>
-					  
-							<div class="form-label-group">
-								<label for="inputPassword">Пароль</label>
-								<input type="password" id="inputPassword" class="form-control" placeholder="Введите пароль" required>
-							</div>
-					  
-							<div class="checkbox mb-3">
-							  <label>
-								<input type="checkbox" value="remember-me"> Запомнить меня
-							  </label>
-							</div>
-							
-							<div class="login-help">
-								<a href="#" data-toggle="modal" data-target="#registerModal" data-dismiss="modal">Зарегистрироваться</a> - <a href="#">Забыли пароль?</a>
-							</div>
-							
-							<div class="text-center"> 
-								<button class="btn btn-lg btn-info" type="submit" name="login">Войти</button>
-							</div>
-						</form>
-					</div>
-				</div>
-            </div>
-        </div>
-		<!--END LOGIN MODAL-->
-		
-		<!-- REGISTER MODAL-->
-		<div class="modal" id="registerModal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">×</span>
-						</button>
-						
-						<div class="row">
-							<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
-							<h2 class="modal-title">Регистрация</h2>
-						</div>
-					</div>
-					<div class="modal-body">
-						<form class="form-signin">		
-							<div class="form-label-group">
-								<label for="inputEmail">Email</label>
-								<input type="email" id="registerEmail" class="form-control" placeholder="Введите email" required autofocus>
-							</div>
-					  
-							<div class="form-label-group">
-								<label for="inputPassword">Пароль</label>
-								<input type="password" id="registerPassword" class="form-control" placeholder="Введите пароль" required>
-							</div>
-							
-							<div class="form-label-group">
-								<label for="inputPassword">Подтверждение пароля</label>
-								<input type="password" id="registerRepearPassword" class="form-control" placeholder="Подтвердите пароль" required>
-							</div>
-							
-							<div class="login-help">
-								<a href="#" data-toggle="modal" data-target="#loginModal" data-dismiss="modal">Уже есть аккаунт?</a>
-							</div>
-							
-							<div class="text-center"> 
-								<button class="btn btn-lg btn-info" type="submit" name="registration">Зарегистрироваться</button>
-							</div>
-						</form>
-					</div>
-				</div>
-            </div>
-        </div>
-		<!--END REGISTER MODAL-->
 		
 		<!--MAIN BLOCK-->
 		<div class="container" style="min-height: 75vh;">
@@ -289,8 +193,8 @@
 					<div class="col-xs-12 col-sm-6 col-md-2 footers-three">
 						<h5><b><u>Вход на сайт</b></u></h5>
 						<ul class="list-unstyled">
-							<li><a href="#" style="text-decoration: none;" data-toggle="modal" data-target="#loginModal">Вход</a></li>
-							<li><a href="#" style="text-decoration: none;" data-toggle="modal" data-target="#registerModal">Регистрация</a></li>
+							<li><a href="profile.php" style="text-decoration: none;">Мой профиль</a></li>
+							<li><a href="#" style="text-decoration: none;">Выход</a></li>
 						</ul>
 					</div>
 				    <div class="col-xs-12 col-sm-6 col-md-2 footers-three">

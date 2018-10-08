@@ -9,11 +9,6 @@
 		
 		<link rel="shortcut icon" type="image/png" href="images/logo/favicon.png"/>		
 		
-		<!--SLIDER LIBRARY--> 
-		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-		<!--END SLIDER LIBRARY-->
-		
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 		
         <link rel="stylesheet" href="css/bootstrap.min.css">	
@@ -155,7 +150,7 @@
 								</div>
 								<div class="panel-body">
 									<div class="row">
-										<div class=" col-md-12"> 
+										<div class="col-md-12"> 
 											<div class="table-responsive">	
 												<table class="table table-bordered table-striped">
 													<thead>
@@ -207,7 +202,7 @@
 								</div>
 								<div class="panel-body">
 									<div class="row">
-										<div class="col-md-9 col-lg-9" style="margin-left: 20px;"> 
+										<div class="col-md-9 col-lg-9" style="margin-left: 20px; margin-right: 20px;"> 
 											<form>
 											  <div class="form-group row">
 												<label for="email" class="col-4 col-form-label">Email</label> 
