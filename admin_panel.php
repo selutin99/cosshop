@@ -719,7 +719,6 @@
 													<ul class="dropdown-menu" role="menu">
 													  <li><a href="#se_order_cart">ID корзины</a></li>
 													  <li><a href="#se_order_del">Заказчики</a></li>
-													  <li><a href="#se_order_tax">Налог</a></li>
 													  <li><a href="#se_order_start_adress">Место отправления</a></li>
 													  <li><a href="#se_order_end_adress">Место доставки</a></li>
 													  <li><a href="#se_order_date_ord">Дата отправки</a></li>
@@ -746,7 +745,6 @@
 											<thead>
 												<th>ID корзины</th>
 												<th>Заказчики</th>
-												<th>Налог</th>
 												<th>Место отправления</th>
 												<th>Место доставки</th>
 												<th>Дата отправки</th>
@@ -765,7 +763,6 @@
 												<tr>
 													<td>1</td>
 													<td><a href="mailto:pupkin@yandex.ru">pupkin@yandex.ru</a></td>
-													<td>#213.234</td>
 													<td>USA</td>
 													<td>Russia</td>
 													<td>15.09.2018</td>
@@ -782,7 +779,6 @@
 												<tr>
 													<td>5</td>
 													<td><a href="mailto:pupkin@yandex.ru">pupkin@yandex.ru</a></td>
-													<td>#223.534</td>
 													<td>Poland</td>
 													<td>Russia</td>
 													<td>10.09.2018</td>
@@ -1343,11 +1339,6 @@
 					<div class="form-label-group">
 						<label for="editOrderClient">Заказчик</label>
 						<input type="text" id="editOrderClient" class="form-control" placeholder="Заказчик">
-					</div>
-					
-					<div class="form-label-group">
-						<label for="editOrderTax">Налог</label>
-						<input type="text" id="editOrderTax" class="form-control" placeholder="Налог">
 					</div>
 					
 					<div class="form-label-group">
