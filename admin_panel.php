@@ -503,7 +503,6 @@
 													  <li><a href="#se_prod_name">Категория</a></li>
 													  <li><a href="#se_prod_user_added">Добавлен</a></li>
 													  <li><a href="#se_prod_tax">Налог</a></li>
-													  <li><a href="#se_prod_color">Цвет</a></li>
 													  <li><a href="#se_prod_name">Название</a></li>
 													  <li><a href="#se_prod_desc_short">Описание (сокр.)</a></li>
 													  <li><a href="#se_prod_desc_full">Описание (полн.)</a></li>
@@ -537,7 +536,6 @@
 												<th>Категория</th>
 												<th>Добавлен</th>
 												<th>Налог</th>
-												<th>Цвет</th>
 												<th>Описание (сокр.)</th>
 												<th>Описание (полн.)</th>
 												<th>Город</th>
@@ -563,7 +561,6 @@
 													<td>Телефон</td>
 													<td><a href="mailto:pupkin@yandex.ru">pupkin@yandex.ru</a></td>
 													<td>#3452.23</td>
-													<td>Красный</td>
 													<td>Тонкий и легкий смартфон...</td>
 													<td>Тонкий и легкий смартфон...</td>
 													<td>USA</td>
@@ -585,7 +582,6 @@
 													<td>Телефон</td>
 													<td><a href="mailto:pupkin@yandex.ru">pupkin@yandex.ru</a></td>
 													<td>#3552.23</td>
-													<td>Чёрный</td>
 													<td>Новый и яркий дизайн!...</td>
 													<td>Новый и яркий дизайн!...</td>
 													<td>USA</td>
@@ -1178,11 +1174,6 @@
 					</div>
 					
 					<div class="form-label-group">
-						<label for="editProductColor">Цвет</label>
-						<input type="text" id="editProductColor" class="form-control" placeholder="Цвет">
-					</div>
-					
-					<div class="form-label-group">
 						<label for="editProductDescriptionShort">Описание сокращённое</label>
 						<input type="text" id="editProductDescriptionShort" class="form-control" placeholder="Описание сокращённое">
 					</div>
@@ -1281,11 +1272,6 @@
 					<div class="form-label-group">
 						<label for="editProductTax">Налог</label>
 						<input type="text" id="editProductTax" class="form-control" placeholder="Налог">
-					</div>
-					
-					<div class="form-label-group">
-						<label for="editProductColor">Цвет</label>
-						<input type="text" id="editProductColor" class="form-control" placeholder="Цвет">
 					</div>
 					
 					<div class="form-label-group">

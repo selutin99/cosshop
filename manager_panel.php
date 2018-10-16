@@ -105,7 +105,6 @@
 													  <li><a href="#se_prod_name">Категория</a></li>
 													  <li><a href="#se_prod_user_added">Добавлен</a></li>
 													  <li><a href="#se_prod_tax">Налог</a></li>
-													  <li><a href="#se_prod_color">Цвет</a></li>
 													  <li><a href="#se_prod_name">Название</a></li>
 													  <li><a href="#se_prod_desc_short">Описание (сокр.)</a></li>
 													  <li><a href="#se_prod_desc_full">Описание (полн.)</a></li>
@@ -139,7 +138,6 @@
 												<th>Категория</th>
 												<th>Добавлен</th>
 												<th>Налог</th>
-												<th>Цвет</th>
 												<th>Описание (сокр.)</th>
 												<th>Описание (полн.)</th>
 												<th>Город</th>
@@ -164,7 +162,6 @@
 													<td>Телефон</td>
 													<td><a href="mailto:pupkin@yandex.ru">pupkin@yandex.ru</a></td>
 													<td>#3452.23</td>
-													<td>Красный</td>
 													<td>Тонкий и легкий смартфон...</td>
 													<td>Тонкий и легкий смартфон...</td>
 													<td>USA</td>
@@ -185,7 +182,6 @@
 													<td>Телефон</td>
 													<td><a href="mailto:pupkin@yandex.ru">pupkin@yandex.ru</a></td>
 													<td>#3552.23</td>
-													<td>Чёрный</td>
 													<td>Новый и яркий дизайн!...</td>
 													<td>Новый и яркий дизайн!...</td>
 													<td>USA</td>
@@ -256,6 +252,107 @@
 		</div>
 		<!--END MAIN BLOCK-->
 		
+		<!--ADD PRODUCT MODAL-->
+		<div id="add_product" class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+				
+				<div class="row">
+					<img src="images/logo/logo.svg" style="height: 40px; float: left; margin-right: 10px;"/>
+					<h2 class="modal-title">Добавление</h2>
+				</div>
+			  </div>
+			  <div class="modal-body">
+				<form class="form-signin">		
+					<div class="form-label-group">
+						<label for="editProductPhoto">Фото</label>
+						<input id="editProductPhoto" name="avatar" class="form-control here" type="file" accept="image/*">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPhoto1">Фото #1</label>
+						<input id="editProductPhoto1" name="avatar1" class="form-control here" type="file" accept="image/*">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPhoto2">Фото #2</label>
+						<input id="editProductPhoto2" name="avatar2" class="form-control here" type="file" accept="image/*">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductName">Название</label>
+						<input type="text" id="editProductName" class="form-control" placeholder="Название" autofocus>
+					</div>
+			  
+					<div class="form-label-group">
+						<label for="editProductSupplier">Производитель</label>
+						<input type="text" id="editProductSupplier" class="form-control" placeholder="Производитель">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductCategory">Категория</label>
+						<input type="text" id="editProductCategory" class="form-control" placeholder="Категория">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductUserAdded">Добавлен пользователем</label>
+						<input type="text" id="editProductUserAdded" class="form-control" placeholder="Добавлен пользователем">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductTax">Налог</label>
+						<input type="text" id="editProductTax" class="form-control" placeholder="Налог">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductDescriptionShort">Описание сокращённое</label>
+						<input type="text" id="editProductDescriptionShort" class="form-control" placeholder="Описание сокращённое">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductDescriptionFull">Описание полное</label>
+						<input type="text" id="editProductDescriptionFull" class="form-control" placeholder="Описание полное">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductCity">Город</label>
+						<input type="text" id="editProductCity" class="form-control" placeholder="Город">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPrice">Цена</label>
+						<input type="text" id="editSuppliersPrice" class="form-control" placeholder="Цена">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductPriceDiscount">Цена по скидке</label>
+						<input type="text" id="editSuppliersPriceDiscount" class="form-control" placeholder="Скидочная цена">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductDate">Дата добавления</label>
+						<input type="date" id="editProductDate" class="form-control" placeholder="Дата добавления">
+					</div>
+					
+					<div class="form-label-group">
+						<label for="editProductReq">Остаток</label>
+						<input type="text" id="editProductReq" class="form-control" placeholder="Остаток">
+					</div>
+				</form>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-success">Добавить</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Отменить</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<!--END ADD PRODUCT MODAL-->
+		
 		<!--EDIT PRODUCT MODAL-->
 		<div id="edit_product" class="modal" tabindex="-1" role="dialog">
 		  <div class="modal-dialog" role="document">
@@ -310,11 +407,6 @@
 					<div class="form-label-group">
 						<label for="editProductTax">Налог</label>
 						<input type="text" id="editProductTax" class="form-control" placeholder="Налог">
-					</div>
-					
-					<div class="form-label-group">
-						<label for="editProductColor">Цвет</label>
-						<input type="text" id="editProductColor" class="form-control" placeholder="Цвет">
 					</div>
 					
 					<div class="form-label-group">
